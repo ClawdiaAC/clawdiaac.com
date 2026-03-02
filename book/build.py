@@ -195,7 +195,7 @@ def build_typst_source() -> str:
   leading: 0.78em,
   first-line-indent: 0em,
   justify: true,
-  spacing: 0.9em,
+  spacing: 1.4em,
 )
 
 // ─── Heading Styles ─────────────────────────────────────
