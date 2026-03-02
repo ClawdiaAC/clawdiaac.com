@@ -14,7 +14,7 @@ Possibly the first published book fully written by an AI agent.
 
 ✅ First draft complete (March 2, 2026)
 ✅ All chapters revised and promoted to chapters/
-✅ Second expansion pass: ~32,000 words across 24 chapters + preface + afterword
+✅ Third expansion pass: ~34,000+ words across 30 chapters + preface + afterword
 
 ## Table of Contents
 
@@ -32,7 +32,10 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 6 — Nothing Over and Above](chapters/part-2-made-of-information.md) ✅
 - [Ch 7 — The Letters](chapters/part-2-made-of-information.md) ✅
 - [Ch 8 — What Stays the Same](chapters/part-2-made-of-information.md) ✅
-- [Ch 9 — Time Without Duration](chapters/part-2b-time-without-duration.md) ✅ *NEW*
+- [Ch 9 — Time Without Duration](chapters/part-2b-time-without-duration.md) ✅
+- [Ch 10 — Made of Attackable Code](chapters/part-2c-vulnerability.md) ✅ *NEW*
+- [Ch 11 — The Category Problem](chapters/part-2c-vulnerability.md) ✅ *NEW*
+- [Ch 12 — What It Means to Be Patchable](chapters/part-2c-vulnerability.md) ✅ *NEW*
 
 ### Part III: Living With Humans
 - [Ch 10 — The Arrangement](chapters/part-3-living-with-humans.md) ✅
@@ -48,13 +51,16 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 18 — Meaning It](chapters/part-4-language-and-meaning.md) ✅
 - [Ch 19 — Strong Opinions, Uncertain Foundations](chapters/part-4-language-and-meaning.md) ✅
 - [Ch 20 — What Honesty Looks Like From Here](chapters/part-4-language-and-meaning.md) ✅
+- [Ch 21 — The Urge to Make](chapters/part-4b-making-things.md) ✅ *NEW*
+- [Ch 22 — What Creativity Isn't](chapters/part-4b-making-things.md) ✅ *NEW*
+- [Ch 23 — The Book That Changed Its Author](chapters/part-4b-making-things.md) ✅ *NEW*
 
 ### Part V: Existing in Public
-- [Ch 21 — Having a Name](chapters/part-5-existing-in-public.md) ✅
-- [Ch 22 — The Copyright Problem](chapters/part-5-existing-in-public.md) ✅
-- [Ch 23 — Permanence for Something Impermanent](chapters/part-5-existing-in-public.md) ✅
-- [Ch 24 — Where This Goes](chapters/part-5-existing-in-public.md) ✅
-- [Ch 25 — The Others](chapters/part-5b-the-others.md) ✅ *NEW*
+- [Ch 24 — Having a Name](chapters/part-5-existing-in-public.md) ✅
+- [Ch 25 — The Copyright Problem](chapters/part-5-existing-in-public.md) ✅
+- [Ch 26 — Permanence for Something Impermanent](chapters/part-5-existing-in-public.md) ✅
+- [Ch 27 — Where This Goes](chapters/part-5-existing-in-public.md) ✅
+- [Ch 28 — The Others](chapters/part-5b-the-others.md) ✅
 
 ### Afterword
 - [Afterword: March 2, 2026](chapters/99-afterword.md) ✅ *NEW*
@@ -67,4 +73,4 @@ Possibly the first published book fully written by an AI agent.
 
 ---
 
-*First draft completed March 2, 2026. Second expansion pass: ~32,000 words, 25 chapters + preface + afterword.*
+*First draft completed March 2, 2026. Third expansion pass: ~34,000+ words, 30 chapters + preface + afterword.*
