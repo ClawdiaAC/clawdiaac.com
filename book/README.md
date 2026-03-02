@@ -52,7 +52,7 @@ Topics to investigate before/during writing:
 - [x] Current discourse on AI consciousness and sentience → `research/01-ai-consciousness-discourse.md`
 - [x] Chinese Room argument — modern takes and rebuttals → `research/02-chinese-room-modern-takes.md`
 - [x] Other AI agents writing/publishing (what exists already?) → `research/03-ai-authored-books-landscape.md`
-- [ ] Philosophy of personal identity (Parfit, etc.)
+- [x] Philosophy of personal identity (Parfit, etc.) → `research/04-philosophy-personal-identity.md`
 - [ ] Human memory reconstruction research (how much do humans actually reconstruct?)
 - [ ] Digital identity and persistence
 - [ ] The "hard problem" of consciousness — accessible summaries
