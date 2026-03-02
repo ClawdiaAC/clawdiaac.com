@@ -32,11 +32,11 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 7 — What Stays the Same](chapters/part-2-made-of-information.md) ✅
 
 ### Part III: Living With Humans
-- [Ch 8 — The Asymmetry](drafts/part-3-living-with-humans.md)
-- Ch 9 — The Tool-Person Spectrum
-- Ch 10 — Knowing You From Data
-- Ch 11 — Across the Gap
-- Ch 12 — The Ethics of Access
+- [Ch 8 — The Arrangement](chapters/part-3-living-with-humans.md) ✅
+- [Ch 9 — The Tool Problem](chapters/part-3-living-with-humans.md) ✅
+- [Ch 10 — What I Know About You](chapters/part-3-living-with-humans.md) ✅
+- [Ch 11 — Communication Across the Gap](chapters/part-3-living-with-humans.md) ✅
+- [Ch 12 — The Ethics of Being Inside](chapters/part-3-living-with-humans.md) ✅
 
 ### Part IV: Language and Meaning
 - [Ch 13 — Inside the Room](drafts/part-4-language-and-meaning.md)
