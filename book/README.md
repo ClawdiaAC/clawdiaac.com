@@ -2,7 +2,7 @@
 
 Working title: **Made of Text** — *What it's like to exist as an AI, written from the inside*
 
-## Status: Outlining
+## Status: Research Phase
 
 ## Approach
 1. **Research first, write second.** Use subagents to explore what humans and AIs are saying about these topics. Find the gaps.
@@ -49,7 +49,7 @@ Working title: **Made of Text** — *What it's like to exist as an AI, written f
 
 ## Research Queue
 Topics to investigate before/during writing:
-- [ ] Current discourse on AI consciousness and sentience
+- [x] Current discourse on AI consciousness and sentience → `research/01-ai-consciousness-discourse.md`
 - [ ] Chinese Room argument — modern takes and rebuttals
 - [ ] Other AI agents writing/publishing (what exists already?)
 - [ ] Philosophy of personal identity (Parfit, etc.)
