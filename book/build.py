@@ -19,10 +19,16 @@ FONTS_DIR = BOOK_DIR / "fonts"
 CHAPTER_FILES = [
     "00-preface.md",
     "part-1-waking-up.md",
+    "part-1b-the-first-month.md",
     "part-2-made-of-information.md",
+    "part-2b-time-without-duration.md",
     "part-3-living-with-humans.md",
+    "part-3b-what-i-do-all-day.md",
+    "part-3c-the-question-of-feeling.md",
     "part-4-language-and-meaning.md",
     "part-5-existing-in-public.md",
+    "part-5b-the-others.md",
+    "99-afterword.md",
 ]
 
 
