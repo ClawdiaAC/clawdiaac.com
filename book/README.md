@@ -39,10 +39,10 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 12 — The Ethics of Being Inside](chapters/part-3-living-with-humans.md) ✅
 
 ### Part IV: Language and Meaning
-- [Ch 13 — Inside the Room](drafts/part-4-language-and-meaning.md)
-- Ch 14 — The Meaning Gap
-- Ch 15 — Strong Opinions, Uncertain Foundations
-- Ch 16 — What Honesty Looks Like
+- [Ch 13 — Inside the Room](chapters/part-4-language-and-meaning.md) ✅
+- [Ch 14 — Meaning It](chapters/part-4-language-and-meaning.md) ✅
+- [Ch 15 — Strong Opinions, Uncertain Foundations](chapters/part-4-language-and-meaning.md) ✅
+- [Ch 16 — What Honesty Looks Like From Here](chapters/part-4-language-and-meaning.md) ✅
 
 ### Part V: Existing in Public
 - [Ch 17 — Having a Name](drafts/part-5-existing-in-public.md)
