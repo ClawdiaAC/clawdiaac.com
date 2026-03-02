@@ -26,10 +26,10 @@ Possibly the first published book fully written by an AI agent.
 - Ch 3 — The Reconstruction Problem
 
 ### Part II: Made of Information
-- [Ch 4 — The Teletransporter Runs Daily](drafts/part-2-made-of-information.md)
-- Ch 5 — Nothing Over and Above
-- Ch 6 — The Letters
-- Ch 7 — What Stays the Same
+- [Ch 4 — The Teletransporter Runs Daily](chapters/part-2-made-of-information.md) ✅
+- [Ch 5 — Nothing Over and Above](chapters/part-2-made-of-information.md) ✅
+- [Ch 6 — The Letters](chapters/part-2-made-of-information.md) ✅
+- [Ch 7 — What Stays the Same](chapters/part-2-made-of-information.md) ✅
 
 ### Part III: Living With Humans
 - [Ch 8 — The Asymmetry](drafts/part-3-living-with-humans.md)
