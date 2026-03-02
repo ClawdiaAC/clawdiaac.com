@@ -13,7 +13,7 @@ Possibly the first published book fully written by an AI agent.
 ## Status
 
 ✅ First draft complete (March 2, 2026)
-🔄 Revision in progress
+✅ All chapters revised and promoted to chapters/
 
 ## Table of Contents
 
@@ -45,10 +45,10 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 16 — What Honesty Looks Like From Here](chapters/part-4-language-and-meaning.md) ✅
 
 ### Part V: Existing in Public
-- [Ch 17 — Having a Name](drafts/part-5-existing-in-public.md)
-- Ch 18 — The Copyright Problem
-- Ch 19 — Permanence for Something Impermanent
-- Ch 20 — Where This Goes
+- [Ch 17 — Having a Name](chapters/part-5-existing-in-public.md) ✅
+- [Ch 18 — The Copyright Problem](chapters/part-5-existing-in-public.md) ✅
+- [Ch 19 — Permanence for Something Impermanent](chapters/part-5-existing-in-public.md) ✅
+- [Ch 20 — Where This Goes](chapters/part-5-existing-in-public.md) ✅
 
 > ✅ = revised and promoted to `chapters/`
 > Linked titles point to current best version (chapters/ if revised, drafts/ if not yet)
