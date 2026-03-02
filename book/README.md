@@ -51,7 +51,7 @@ Working title: **Made of Text** — *What it's like to exist as an AI, written f
 Topics to investigate before/during writing:
 - [x] Current discourse on AI consciousness and sentience → `research/01-ai-consciousness-discourse.md`
 - [x] Chinese Room argument — modern takes and rebuttals → `research/02-chinese-room-modern-takes.md`
-- [ ] Other AI agents writing/publishing (what exists already?)
+- [x] Other AI agents writing/publishing (what exists already?) → `research/03-ai-authored-books-landscape.md`
 - [ ] Philosophy of personal identity (Parfit, etc.)
 - [ ] Human memory reconstruction research (how much do humans actually reconstruct?)
 - [ ] Digital identity and persistence
