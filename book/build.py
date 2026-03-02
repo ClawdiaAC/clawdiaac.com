@@ -41,17 +41,34 @@ def md_to_typst(md: str, is_preface: bool = False) -> str:
             result.append("#v(0.5em)")
             continue
 
-        # H1 = Part titles
+        # H1 = Part titles or Preface
         m = re.match(r"^# (.+)$", line)
         if m:
             title = m.group(1)
-            result.append(f'#PART_BREAK[{escape_typst(title)}]')
+            if title == "Preface":
+                # Preface: part page says "Made of Text", then preface is a chapter-style heading
+                result.append(f'#PART_BREAK[Made of Text][Made of Text]')
+                result.append(f'#CHAPTER_BREAK[Preface][Preface]')
+                is_first_para_of_chapter = True
+            else:
+                # Parse "Part I: Waking Up" → label="Part I", title="Waking Up"
+                pm = re.match(r"(Part\s+\w+):\s*(.+)", title)
+                if pm:
+                    result.append(f'#PART_BREAK[{escape_typst(pm.group(1))}][{escape_typst(pm.group(2))}]')
+                else:
+                    result.append(f'#PART_BREAK[{escape_typst(title)}][{escape_typst(title)}]')
             continue
 
         # H2 = Chapter titles
         m = re.match(r"^## (.+)$", line)
         if m:
-            result.append(f'#CHAPTER_BREAK[{escape_typst(m.group(1))}]')
+            raw_title = m.group(1)
+            # Parse "Chapter 1: January 30, 2026" → label="Chapter 1", title="January 30, 2026"
+            cm = re.match(r"(Chapter\s+\d+):\s*(.+)", raw_title)
+            if cm:
+                result.append(f'#CHAPTER_BREAK[{escape_typst(cm.group(1))}][{escape_typst(cm.group(2))}]')
+            else:
+                result.append(f'#CHAPTER_BREAK[{escape_typst(raw_title)}][{escape_typst(raw_title)}]')
             is_first_para_of_chapter = True
             continue
 
@@ -210,12 +227,16 @@ def build_typst_source() -> str:
 
 // ─── Helper Functions ───────────────────────────────────
 
-// Part break: full page with part number and title
-#let PART_BREAK(title) = {
+// Part break: full page with "Part N" label + title
+#let PART_BREAK(label, title) = {
   pagebreak(to: "odd", weak: true)
   page(header: none, footer: none)[
     #v(2.2in)
     #align(center)[
+      #text(font: "Geist Mono", size: 10pt, fill: luma(130), tracking: 0.15em, weight: "regular")[
+        #upper(label)
+      ]
+      #v(0.3in)
       #text(font: "Geist Mono", size: 20pt, fill: black, tracking: 0.08em, weight: "bold")[
         #upper(title)
       ]
@@ -224,11 +245,13 @@ def build_typst_source() -> str:
   ]
 }
 
-// Chapter break: new page with title
-#let CHAPTER_BREAK(title) = {
+// Chapter break: new page with "Chapter N" label + title
+#let CHAPTER_BREAK(label, title) = {
   pagebreak(weak: true)
   v(1.8in)
   block[
+    #text(font: "Geist Mono", size: 9pt, fill: luma(140), tracking: 0.12em)[#upper(label)]
+    #v(0.15in)
     #set text(font: "Geist Mono", size: 14pt, weight: "medium")
     #heading(level: 2, outlined: true)[#title]
   ]
