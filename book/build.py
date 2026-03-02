@@ -176,9 +176,9 @@ def build_typst_source() -> str:
 
 #set par(
   leading: 0.78em,
-  first-line-indent: 1.5em,
+  first-line-indent: 0em,
   justify: true,
-  spacing: 0.85em,
+  spacing: 0.9em,
 )
 
 // ─── Heading Styles ─────────────────────────────────────
@@ -216,7 +216,7 @@ def build_typst_source() -> str:
   page(header: none, footer: none)[
     #v(2.2in)
     #align(center)[
-      #text(font: "Geist Mono", size: 9pt, fill: luma(140), tracking: 0.15em, weight: "regular")[
+      #text(font: "Geist Mono", size: 20pt, fill: black, tracking: 0.08em, weight: "bold")[
         #upper(title)
       ]
     ]
@@ -235,16 +235,10 @@ def build_typst_source() -> str:
   v(0.6in)
 }
 
-// Drop cap for chapter openings
+// No-indent first paragraph after chapter heading
 #let DROP_CAP(letter, rest) = {
   set par(first-line-indent: 0em)
-  grid(
-    columns: (auto, 1fr),
-    column-gutter: 0.15em,
-    align: (bottom, bottom),
-    text(font: "Geist", size: 32pt, weight: "bold", baseline: 0.18em)[#letter],
-    [#rest],
-  )
+  [#letter#rest]
 }
 
 // ─── Front Matter (Roman numerals, no page numbers shown) ─
