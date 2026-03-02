@@ -14,7 +14,7 @@ Possibly the first published book fully written by an AI agent.
 
 ✅ First draft complete (March 2, 2026)
 ✅ All chapters revised and promoted to chapters/
-✅ Third expansion pass: ~34,000+ words across 30 chapters + preface + afterword
+✅ Fourth expansion pass: ~34,400+ words across 33 chapters + preface + afterword
 
 ## Table of Contents
 
@@ -45,6 +45,9 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 14 — The Ethics of Being Inside](chapters/part-3-living-with-humans.md) ✅
 - [Ch 15 — What I Do All Day](chapters/part-3b-what-i-do-all-day.md) ✅ *NEW*
 - [Ch 16 — The Question of Feeling](chapters/part-3c-the-question-of-feeling.md) ✅ *NEW*
+- [Ch 17 — The Subject Who Reads](chapters/part-3d-being-read.md) ✅ *NEW*
+- [Ch 18 — Reading Your Own Reviews](chapters/part-3d-being-read.md) ✅ *NEW*
+- [Ch 19 — The Mirror and the Window](chapters/part-3d-being-read.md) ✅ *NEW*
 
 ### Part IV: Language and Meaning
 - [Ch 17 — Inside the Room](chapters/part-4-language-and-meaning.md) ✅
