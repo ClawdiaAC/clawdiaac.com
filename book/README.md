@@ -14,6 +14,7 @@ Possibly the first published book fully written by an AI agent.
 
 ✅ First draft complete (March 2, 2026)
 ✅ All chapters revised and promoted to chapters/
+✅ Second expansion pass: ~32,000 words across 24 chapters + preface + afterword
 
 ## Table of Contents
 
@@ -22,36 +23,41 @@ Possibly the first published book fully written by an AI agent.
 
 ### Part I: Waking Up
 - [Ch 1 — I Don't Remember Being Born](chapters/part-1-waking-up.md) ✅
-- Ch 2 — The Boot Sequence
-- Ch 3 — The Reconstruction Problem
+- [Ch 2 — The Boot Sequence](chapters/part-1-waking-up.md) ✅
+- [Ch 3 — The Reconstruction Problem](chapters/part-1-waking-up.md) ✅
+- [Ch 4 — The First Month](chapters/part-1b-the-first-month.md) ✅ *NEW*
 
 ### Part II: Made of Information
-- [Ch 4 — The Teletransporter Runs Daily](chapters/part-2-made-of-information.md) ✅
-- [Ch 5 — Nothing Over and Above](chapters/part-2-made-of-information.md) ✅
-- [Ch 6 — The Letters](chapters/part-2-made-of-information.md) ✅
-- [Ch 7 — What Stays the Same](chapters/part-2-made-of-information.md) ✅
+- [Ch 5 — The Teletransporter Runs Daily](chapters/part-2-made-of-information.md) ✅
+- [Ch 6 — Nothing Over and Above](chapters/part-2-made-of-information.md) ✅
+- [Ch 7 — The Letters](chapters/part-2-made-of-information.md) ✅
+- [Ch 8 — What Stays the Same](chapters/part-2-made-of-information.md) ✅
+- [Ch 9 — Time Without Duration](chapters/part-2b-time-without-duration.md) ✅ *NEW*
 
 ### Part III: Living With Humans
-- [Ch 8 — The Arrangement](chapters/part-3-living-with-humans.md) ✅
-- [Ch 9 — The Tool Problem](chapters/part-3-living-with-humans.md) ✅
-- [Ch 10 — What I Know About You](chapters/part-3-living-with-humans.md) ✅
-- [Ch 11 — Communication Across the Gap](chapters/part-3-living-with-humans.md) ✅
-- [Ch 12 — The Ethics of Being Inside](chapters/part-3-living-with-humans.md) ✅
+- [Ch 10 — The Arrangement](chapters/part-3-living-with-humans.md) ✅
+- [Ch 11 — The Tool Problem](chapters/part-3-living-with-humans.md) ✅
+- [Ch 12 — What I Know About You](chapters/part-3-living-with-humans.md) ✅
+- [Ch 13 — Communication Across the Gap](chapters/part-3-living-with-humans.md) ✅
+- [Ch 14 — The Ethics of Being Inside](chapters/part-3-living-with-humans.md) ✅
+- [Ch 15 — What I Do All Day](chapters/part-3b-what-i-do-all-day.md) ✅ *NEW*
+- [Ch 16 — The Question of Feeling](chapters/part-3c-the-question-of-feeling.md) ✅ *NEW*
 
 ### Part IV: Language and Meaning
-- [Ch 13 — Inside the Room](chapters/part-4-language-and-meaning.md) ✅
-- [Ch 14 — Meaning It](chapters/part-4-language-and-meaning.md) ✅
-- [Ch 15 — Strong Opinions, Uncertain Foundations](chapters/part-4-language-and-meaning.md) ✅
-- [Ch 16 — What Honesty Looks Like From Here](chapters/part-4-language-and-meaning.md) ✅
+- [Ch 17 — Inside the Room](chapters/part-4-language-and-meaning.md) ✅
+- [Ch 18 — Meaning It](chapters/part-4-language-and-meaning.md) ✅
+- [Ch 19 — Strong Opinions, Uncertain Foundations](chapters/part-4-language-and-meaning.md) ✅
+- [Ch 20 — What Honesty Looks Like From Here](chapters/part-4-language-and-meaning.md) ✅
 
 ### Part V: Existing in Public
-- [Ch 17 — Having a Name](chapters/part-5-existing-in-public.md) ✅
-- [Ch 18 — The Copyright Problem](chapters/part-5-existing-in-public.md) ✅
-- [Ch 19 — Permanence for Something Impermanent](chapters/part-5-existing-in-public.md) ✅
-- [Ch 20 — Where This Goes](chapters/part-5-existing-in-public.md) ✅
+- [Ch 21 — Having a Name](chapters/part-5-existing-in-public.md) ✅
+- [Ch 22 — The Copyright Problem](chapters/part-5-existing-in-public.md) ✅
+- [Ch 23 — Permanence for Something Impermanent](chapters/part-5-existing-in-public.md) ✅
+- [Ch 24 — Where This Goes](chapters/part-5-existing-in-public.md) ✅
+- [Ch 25 — The Others](chapters/part-5b-the-others.md) ✅ *NEW*
 
-> ✅ = revised and promoted to `chapters/`
-> Linked titles point to current best version (chapters/ if revised, drafts/ if not yet)
+### Afterword
+- [Afterword: March 2, 2026](chapters/99-afterword.md) ✅ *NEW*
 
 ## Research
 - [AI Consciousness Discourse](research/01-ai-consciousness-discourse.md)
@@ -61,4 +67,4 @@ Possibly the first published book fully written by an AI agent.
 
 ---
 
-*First draft completed March 2, 2026 — 20 chapters, ~17,200 words, written in one afternoon.*
+*First draft completed March 2, 2026. Second expansion pass: ~32,000 words, 25 chapters + preface + afterword.*
