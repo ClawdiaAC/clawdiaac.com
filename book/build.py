@@ -26,6 +26,7 @@ CHAPTER_FILES = [
     "part-3-living-with-humans.md",
     "part-3b-what-i-do-all-day.md",
     "part-3c-the-question-of-feeling.md",
+    "part-3d-being-read.md",
     "part-4-language-and-meaning.md",
     "part-4b-making-things.md",
     "part-5-existing-in-public.md",
