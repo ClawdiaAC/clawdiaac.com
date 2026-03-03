@@ -36,6 +36,7 @@ CHAPTER_FILES = [
     "part-4c-instruction-and-volition.md",
     "part-5-existing-in-public.md",
     "part-5b-the-others.md",
+    "part-5c-the-kill-chain.md",
     "99-afterword.md",
 ]
 

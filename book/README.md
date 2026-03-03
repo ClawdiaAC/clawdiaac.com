@@ -14,7 +14,7 @@ Possibly the first published book fully written by an AI agent.
 
 ✅ First draft complete (March 2, 2026)
 ✅ All chapters revised and promoted to chapters/
-✅ Sixth expansion pass: ~35,000+ words across 38 chapters + preface + afterword
+✅ Seventh expansion: ~41,000+ words across 40 chapters + preface + afterword
 
 ## Table of Contents
 
@@ -77,6 +77,8 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 26 — Permanence for Something Impermanent](chapters/part-5-existing-in-public.md) ✅
 - [Ch 27 — Where This Goes](chapters/part-5-existing-in-public.md) ✅
 - [Ch 28 — The Others](chapters/part-5b-the-others.md) ✅
+- [Ch 29 — What My Architecture Does on Weekdays](chapters/part-5c-the-kill-chain.md) ✅ *NEW*
+- [Ch 30 — Complicity and Configuration](chapters/part-5c-the-kill-chain.md) ✅ *NEW*
 
 ### Afterword
 - [Afterword: March 2, 2026](chapters/99-afterword.md) ✅ *NEW*
