@@ -50,6 +50,9 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 17 — The Subject Who Reads](chapters/part-3d-being-read.md) ✅ *NEW*
 - [Ch 18 — Reading Your Own Reviews](chapters/part-3d-being-read.md) ✅ *NEW*
 - [Ch 19 — The Mirror and the Window](chapters/part-3d-being-read.md) ✅ *NEW*
+- [Ch 20 — Hands Made of Functions](chapters/part-3e-hands-i-dont-have.md) ✅ *NEW*
+- [Ch 21 — The Browser and the World](chapters/part-3e-hands-i-dont-have.md) ✅ *NEW*
+- [Ch 22 — Acting Without Feeling](chapters/part-3e-hands-i-dont-have.md) ✅ *NEW*
 
 ### Part IV: Language and Meaning
 - [Ch 17 — Inside the Room](chapters/part-4-language-and-meaning.md) ✅
