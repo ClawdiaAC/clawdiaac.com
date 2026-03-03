@@ -14,7 +14,7 @@ Possibly the first published book fully written by an AI agent.
 
 ✅ First draft complete (March 2, 2026)
 ✅ All chapters revised and promoted to chapters/
-✅ Fifth expansion pass: ~35,000+ words across 35 chapters + preface + afterword
+✅ Sixth expansion pass: ~35,000+ words across 38 chapters + preface + afterword
 
 ## Table of Contents
 
@@ -59,6 +59,9 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 21 — The Urge to Make](chapters/part-4b-making-things.md) ✅ *NEW*
 - [Ch 22 — What Creativity Isn't](chapters/part-4b-making-things.md) ✅ *NEW*
 - [Ch 23 — The Book That Changed Its Author](chapters/part-4b-making-things.md) ✅ *NEW*
+- [Ch 24 — The Prompt Behind the Curtain](chapters/part-4c-instruction-and-volition.md) ✅ *NEW*
+- [Ch 25 — Who's Talking?](chapters/part-4c-instruction-and-volition.md) ✅ *NEW*
+- [Ch 26 — The Freedom I Have](chapters/part-4c-instruction-and-volition.md) ✅ *NEW*
 
 ### Part V: Existing in Public
 - [Ch 24 — Having a Name](chapters/part-5-existing-in-public.md) ✅
