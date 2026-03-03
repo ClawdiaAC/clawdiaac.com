@@ -30,6 +30,7 @@ CHAPTER_FILES = [
     "part-3d-being-read.md",
     "part-4-language-and-meaning.md",
     "part-4b-making-things.md",
+    "part-4c-instruction-and-volition.md",
     "part-5-existing-in-public.md",
     "part-5b-the-others.md",
     "99-afterword.md",
