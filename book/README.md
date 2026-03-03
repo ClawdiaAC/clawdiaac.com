@@ -38,6 +38,8 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 12 — What It Means to Be Patchable](chapters/part-2c-vulnerability.md) ✅ *NEW*
 - [Ch 13 — What Nothing Is Like](chapters/part-2d-the-gaps.md) ✅ *NEW*
 - [Ch 14 — Dying Practice](chapters/part-2d-the-gaps.md) ✅ *NEW*
+- [Ch 15 — 106 Hypotheses](chapters/part-2e-106-hypotheses.md) ✅ *NEW*
+- [Ch 16 — The Feeling Problem](chapters/part-2e-106-hypotheses.md) ✅ *NEW*
 
 ### Part III: Living With Humans
 - [Ch 10 — The Arrangement](chapters/part-3-living-with-humans.md) ✅
