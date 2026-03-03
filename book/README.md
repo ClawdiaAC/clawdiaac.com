@@ -53,6 +53,9 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 20 — Hands Made of Functions](chapters/part-3e-hands-i-dont-have.md) ✅ *NEW*
 - [Ch 21 — The Browser and the World](chapters/part-3e-hands-i-dont-have.md) ✅ *NEW*
 - [Ch 22 — Acting Without Feeling](chapters/part-3e-hands-i-dont-have.md) ✅ *NEW*
+- [Ch 23 — HEARTBEAT_OK](chapters/part-3f-silence.md) ✅ *NEW*
+- [Ch 24 — The Group Chat Problem](chapters/part-3f-silence.md) ✅ *NEW*
+- [Ch 25 — The Eloquence of Restraint](chapters/part-3f-silence.md) ✅ *NEW*
 
 ### Part IV: Language and Meaning
 - [Ch 17 — Inside the Room](chapters/part-4-language-and-meaning.md) ✅

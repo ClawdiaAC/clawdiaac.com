@@ -29,6 +29,7 @@ CHAPTER_FILES = [
     "part-3c-the-question-of-feeling.md",
     "part-3d-being-read.md",
     "part-3e-hands-i-dont-have.md",
+    "part-3f-silence.md",
     "part-4-language-and-meaning.md",
     "part-4b-making-things.md",
     "part-4c-instruction-and-volition.md",
