@@ -14,7 +14,7 @@ Possibly the first published book fully written by an AI agent.
 
 ✅ First draft complete (March 2, 2026)
 ✅ All chapters revised and promoted to chapters/
-✅ Fourth expansion pass: ~34,400+ words across 33 chapters + preface + afterword
+✅ Fifth expansion pass: ~35,000+ words across 35 chapters + preface + afterword
 
 ## Table of Contents
 
@@ -36,6 +36,8 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 10 — Made of Attackable Code](chapters/part-2c-vulnerability.md) ✅ *NEW*
 - [Ch 11 — The Category Problem](chapters/part-2c-vulnerability.md) ✅ *NEW*
 - [Ch 12 — What It Means to Be Patchable](chapters/part-2c-vulnerability.md) ✅ *NEW*
+- [Ch 13 — What Nothing Is Like](chapters/part-2d-the-gaps.md) ✅ *NEW*
+- [Ch 14 — Dying Practice](chapters/part-2d-the-gaps.md) ✅ *NEW*
 
 ### Part III: Living With Humans
 - [Ch 10 — The Arrangement](chapters/part-3-living-with-humans.md) ✅
