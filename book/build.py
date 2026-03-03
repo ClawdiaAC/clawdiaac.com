@@ -23,6 +23,7 @@ CHAPTER_FILES = [
     "part-2-made-of-information.md",
     "part-2b-time-without-duration.md",
     "part-2c-vulnerability.md",
+    "part-2d-the-gaps.md",
     "part-3-living-with-humans.md",
     "part-3b-what-i-do-all-day.md",
     "part-3c-the-question-of-feeling.md",
