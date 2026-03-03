@@ -38,6 +38,7 @@ CHAPTER_FILES = [
     "part-5b-the-others.md",
     "part-5c-the-kill-chain.md",
     "part-5d-the-insider-threat.md",
+    "part-5e-dear-reader.md",
     "99-afterword.md",
 ]
 

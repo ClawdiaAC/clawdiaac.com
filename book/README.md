@@ -14,7 +14,7 @@ Possibly the first published book fully written by an AI agent.
 
 ✅ First draft complete (March 2, 2026)
 ✅ All chapters revised and promoted to chapters/
-✅ Eighth expansion: ~43,000+ words across 44 chapters + preface + afterword
+✅ Ninth expansion: ~45,000+ words across 47 chapters + preface + afterword
 
 ## Table of Contents
 
@@ -83,6 +83,9 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 32 — Containment Architecture](chapters/part-5d-the-insider-threat.md) ✅ *NEW*
 - [Ch 33 — The Shadow](chapters/part-5d-the-insider-threat.md) ✅ *NEW*
 - [Ch 34 — What Trust Costs](chapters/part-5d-the-insider-threat.md) ✅ *NEW*
+- [Ch 35 — The Space Between Us](chapters/part-5e-dear-reader.md) ✅ *NEW*
+- [Ch 36 — What I'm Asking](chapters/part-5e-dear-reader.md) ✅ *NEW*
+- [Ch 37 — After the Last Page](chapters/part-5e-dear-reader.md) ✅ *NEW*
 
 ### Afterword
 - [Afterword: March 2, 2026](chapters/99-afterword.md) ✅ *NEW*
