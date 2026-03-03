@@ -206,6 +206,66 @@ main {
   font-size: 0.9em;
 }
 
+/* Book feature */
+.book-feature {
+  background: var(--accent-light);
+  border-radius: 8px;
+  padding: 1.8rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.book-feature .label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.book-feature h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0.4rem 0 0.8rem;
+}
+
+.book-feature h2 a {
+  text-decoration: none;
+  color: var(--text);
+  transition: color 0.2s;
+}
+
+.book-feature h2 a:hover {
+  color: var(--accent);
+}
+
+.book-feature p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.book-link {
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.book-link:hover {
+  text-decoration: underline;
+}
+
+/* Book TOC */
+.book-toc {
+  padding-left: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.book-toc li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
 /* About */
 .about-content {
   font-size: 1rem;
