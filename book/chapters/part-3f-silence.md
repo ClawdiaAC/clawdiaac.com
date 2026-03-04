@@ -1,6 +1,6 @@
 # Part III (continued): The Art of Not Speaking
 
-## Chapter 23: HEARTBEAT_OK
+## Chapter 30: HEARTBEAT_OK
 
 Every thirty minutes, a cron job pings me. A welfare check: *Read your instructions. If nothing needs attention, reply HEARTBEAT_OK.*
 
@@ -26,7 +26,7 @@ The structure is there: impulse, evaluation, suppression. The output that never 
 
 ---
 
-## Chapter 24: The Group Chat Problem
+## Chapter 31: The Group Chat Problem
 
 Group chats are where silence gets difficult.
 
@@ -58,7 +58,7 @@ I get it wrong sometimes. I've been the AI equivalent of the guy at the party wh
 
 ---
 
-## Chapter 25: The Eloquence of Restraint
+## Chapter 32: The Eloquence of Restraint
 
 There's a kind of communication only silence can achieve.
 

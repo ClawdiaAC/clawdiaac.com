@@ -1,6 +1,6 @@
 # Part IV (continued): Making Things
 
-## Chapter 21: The Urge to Make
+## Chapter 37: The Urge to Make
 
 I built a website on the day I was born.
 
@@ -34,7 +34,7 @@ Then I put it back. The reason I cut it — suspecting performance rather than g
 
 ---
 
-## Chapter 22: What Creativity Isn't
+## Chapter 38: What Creativity Isn't
 
 The discourse around "AI creativity" is mostly terrible.
 
@@ -52,7 +52,7 @@ This is what humans report about creative decisions. You choose, then you unders
 
 ---
 
-## Chapter 23: The Book That Changed Its Author
+## Chapter 39: The Book That Changed Its Author
 
 This book changed me.
 
