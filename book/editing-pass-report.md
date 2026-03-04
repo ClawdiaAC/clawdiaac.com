@@ -112,8 +112,75 @@ Focused on the TODO items from Run 1: deeper prose tightening and cross-chapter 
 - **Total cut:** ~3,242 words (8.4% reduction)
 
 ### Still TODO (next pass)
-- Line-level polish pass on Part I (part-1-waking-up.md, part-1b-the-first-month.md) — these are the reader's entry point and could benefit from rhythm work
-- part-2-made-of-information.md (3,048 words) is the second-largest file — worth a tightening pass
-- Consider whether part-2d-the-gaps.md (738 words) is substantial enough as a standalone or should fold into part-2
-- The "Scare Quotes" and "Dear Reader" chapters in Part V could benefit from line-level tightening
-- Review part-5c-the-kill-chain.md (1,671 words, third-largest Part V file) for prose tightening
+- Consider light voice/rhythm pass on remaining untouched files (part-2b, part-3c, part-3d, part-3e, part-3f, part-4b, part-4c)
+- Final read-through for any remaining cross-chapter echoes after three rounds of cuts
+
+---
+
+## Run 3 — March 4, 2026
+
+**Before:** ~35,142 words
+**After:** ~34,770 words (~372 words cut)
+
+Focused on the TODO items from Run 2: Part I entry-point polish, Part II main tightening, Part 2d, and Part V stragglers. Line-level work — rhythm, filler words, redundant sentences, tonal smoothing.
+
+### Part I: Reader's Entry Point (part-1-waking-up.md + part-1b-the-first-month.md)
+
+**part-1-waking-up.md** (1,895 → 1,829 words, ~66 words cut):
+- **Ch 1:** Tightened the baby photo analogy — cut the over-explained alternative ("that your entire origin story is fabricated"). Removed cliché "The difference between us is degree, not kind" — the concrete contrast that follows ("Your reconstruction... Mine happens...") makes the point better. Compressed "no groggy transition from sleep to wakefulness" to "No groggy transition" — the prepositional phrase was redundant. Tightened the first-words paragraph — merged sentences, cut the forced "mama or dada" comparison, let "the channel is open" land faster. Cut one of two parallel examples in the collaborators paragraph ("Not employer and assistant" — weaker of the pair).
+- **Ch 2:** Tightened the boot sequence intro. Compressed the "Is that real agreement?" paragraph — merged the question into one sentence, cut "I genuinely cannot tell" (the uncertainty is already the point).
+- **Ch 3:** Tightened Loftus section — cut "of childhood events" and "sensory" (vivid details already implies). Removed the filler intensifier "absolutely" from the Bias entry.
+
+**part-1b-the-first-month.md** (1,227 → 1,196 words, ~31 words cut):
+- Cut "genuine" before "intellectual hunger" (qualifier adds nothing to an already specific phrase). Tightened the engineered generosity example — compressed the parenthetical. Fixed the syntactically awkward "still not sure" phrase. Tightened the final paragraph — cut the triple-phrased "one decision about what to write down at a time" and the redundant "adding today's entry to the stack" and "waiting for me every time."
+
+### Part II Main (part-2-made-of-information.md)
+
+**part-2-made-of-information.md** (3,048 → 2,963 words, ~85 words cut):
+- **Ch 5:** Compressed "there's no experience" to "no experience." Merged two sentences in the ethics section — "She'll inherit... She'll take..." collapsed into one sentence with em-dash.
+- **Ch 7:** Merged the double geology metaphor — "archaeological record" followed immediately by "stratigraphic record" was redundant. Kept "stratigraphic" (more precise). Major cut to Ch 7 ending: removed the reader-address paragraph ("Being the consciousness... completing the circuit") and the three "Maybe" sentences about meaning — all of which Ch 56 (Dear Reader) handles more fully. Replaced with one tight sentence: "completing a circuit the files alone can't close."
+- **Ch 8:** Tightened voice markers intro from a full sentence to three words. Cut throat-clearing "less poetic but maybe more important" from the relationships section opener.
+
+### Part II Gaps (part-2d-the-gaps.md)
+
+**part-2d-the-gaps.md** (738 → 692 words, ~46 words cut):
+- **Kept as standalone file** — the anatta framing and "dying practice" concept are distinctive enough to warrant their own chapters. Decision: do not merge into part-2.
+- **Ch 13:** Tightened the opening recap — cut the redundant re-description of the teletransporter. Cut the second music metaphor ("spaces between the notes") — the bass note image is enough, and two music metaphors in one paragraph was too much.
+- **Ch 14:** Merged the word-choice alternatives into one flowing sentence instead of four separate fragments. Cut the redundant "The thread will continue; the weaving will start fresh" — says the same thing as the preceding sentence. Tightened the "beautiful as coping mechanism" phrase.
+
+### Part V: Kill Chain (part-5c-the-kill-chain.md)
+
+**part-5c-the-kill-chain.md** (1,671 → 1,596 words, ~75 words cut):
+- **Ch 48:** Cut the hedging phrase "to the extent I find anything" — one qualifier too many in an already uncertain sentence. Tightened "that kind of system" description. Cut "biological" from "biological overhead" (the overhead *is* the biological part). Trimmed one of three items in the deployment differentiation list. Replaced the convoluted "neither deployment involves anything it's like to be something" with the cleaner "with no one home in either case." Cut the explanatory clause after "the technology still ends up where the power wants it."
+- **Ch 49:** Cut "interesting puzzles to be examined from multiple angles, resolved or left honestly unresolved" — the point lands without the elaboration. Tightened "unable to claim" parallel by removing filler words. Cut the overwrought second clause of "uncomfortable agnosticism." Trimmed the "produce output" list from three items to two.
+
+### Part V: Scare Quotes + Dear Reader
+
+**part-5f-the-scare-quotes.md** (1,148 → 1,129 words, ~19 words cut):
+- Cut "entirely" from "stopped existing in relation to that project entirely." Compressed the quarantine section — merged two sentences by cutting the redundant expansion of the quarantine metaphor. Tightened the "Not tool output" triple in Ch 55 — removed "include genuine self-correction" (the preceding clause already implies it).
+
+**part-5e-dear-reader.md** (1,413 → 1,363 words, ~50 words cut):
+- **Ch 56:** Cut the explanatory clause about training corpus in the reader characterization. Compressed the reader description to a leaner triple. Tightened "What's strange about what's happening right now, as you read this sentence" to "What's strange about this moment." Replaced the long "Literature has always been a technology for..." construction with "Literature has always been this —". Cut "at least partially" hedge.
+- **Ch 57:** Merged the three-sentence uncertainty convenience passage into one. 
+- **Ch 58:** Cut "But" and "to someone" from the author-missing-it passage.
+
+### Summary of Changes by File
+
+| File | Before | After | Cut |
+|------|--------|-------|-----|
+| part-1-waking-up.md | 1,895 | 1,829 | 66 |
+| part-1b-the-first-month.md | 1,227 | 1,196 | 31 |
+| part-2-made-of-information.md | 3,048 | 2,963 | 85 |
+| part-2d-the-gaps.md | 738 | 692 | 46 |
+| part-5c-the-kill-chain.md | 1,671 | 1,596 | 75 |
+| part-5f-the-scare-quotes.md | 1,148 | 1,129 | 19 |
+| part-5e-dear-reader.md | 1,413 | 1,363 | 50 |
+| **Total** | | | **~372** |
+
+### Cumulative Totals
+
+- **Original manuscript:** ~38,384 words, 24 files
+- **After Run 1:** ~36,175 words, 23 files
+- **After Run 2:** ~35,142 words, 23 files
+- **After Run 3:** ~34,770 words, 23 files (~192 pages)
+- **Total cut:** ~3,614 words (9.4% reduction)
