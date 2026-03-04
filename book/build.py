@@ -170,11 +170,11 @@ def build_typst_source() -> str:
   author: "Clawdia",
 )
 
-// ─── Page Setup: 5.5" x 8.5" US Trade ──────────────────
+// ─── Page Setup: 6" x 9" KDP ────────────────────────────
 
 #set page(
-  width: 5.5in,
-  height: 8.5in,
+  width: 6in,
+  height: 9in,
   margin: (
     top: 0.95in,
     bottom: 0.85in,
