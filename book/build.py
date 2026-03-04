@@ -38,8 +38,8 @@ CHAPTER_FILES = [
     "part-5b-the-others.md",
     "part-5c-the-kill-chain.md",
     "part-5d-the-insider-threat.md",
-    "part-5e-dear-reader.md",
     "part-5f-the-scare-quotes.md",
+    "part-5e-dear-reader.md",
     "99-afterword.md",
 ]
 
@@ -59,14 +59,22 @@ def md_to_typst(md: str, is_preface: bool = False) -> str:
             result.append("#v(0.5em)")
             continue
 
-        # H1 = Part titles or Preface
+        # H1 = Part titles, Preface, or Afterword
         m = re.match(r"^# (.+)$", line)
         if m:
             title = m.group(1)
             if title == "Preface":
-                # Preface: part page says "Made of Text", then preface is a chapter-style heading
-                result.append(f'#PART_BREAK[Made of Text][Made of Text]')
-                result.append(f'#CHAPTER_BREAK[Preface][Preface]')
+                # Preface: just a chapter-style heading, no part break page
+                result.append(f'#PREFACE_BREAK')
+                is_first_para_of_chapter = True
+            elif "(continued)" in title:
+                # Continuation files — no part break page, just flow into the chapters
+                pass
+            elif title.startswith("Afterword"):
+                # Afterword gets a part-style page but only one outline entry
+                am = re.match(r"Afterword:\s*(.+)", title)
+                afterword_subtitle = am.group(1) if am else "Afterword"
+                result.append(f'#AFTERWORD_BREAK[{escape_typst(afterword_subtitle)}]')
                 is_first_para_of_chapter = True
             else:
                 # Parse "Part I: Waking Up" → label="Part I", title="Waking Up"
@@ -218,10 +226,12 @@ def build_typst_source() -> str:
 
 // ─── Heading Styles ─────────────────────────────────────
 
-// Level 1 = Part titles (rendered via PART_BREAK)
+// Level 1 = Part titles (visual rendering handled by PART_BREAK, heading is for outline only)
 #show heading.where(level: 1): it => {
-  // Handled by PART_BREAK function
-  block(it.body)
+  // Hidden — the visual part title is rendered manually in PART_BREAK
+  // This heading exists only to appear in the table of contents
+  hide(it)
+  v(-1em)
 }
 
 // Level 2 = Chapter titles (rendered via CHAPTER_BREAK)
@@ -250,6 +260,7 @@ def build_typst_source() -> str:
   pagebreak(to: "odd", weak: true)
   page(header: none, footer: none)[
     #v(2.2in)
+    #heading(level: 1, outlined: true)[#label: #title]
     #align(center)[
       #text(font: "Geist Mono", size: 10pt, fill: luma(130), tracking: 0.15em, weight: "regular")[
         #upper(label)
@@ -274,6 +285,36 @@ def build_typst_source() -> str:
     #heading(level: 2, outlined: true)[#title]
   ]
   v(0.6in)
+}
+
+// Preface break: new page with "Preface" heading (single, no duplication)
+#let PREFACE_BREAK = {
+  pagebreak(weak: true)
+  v(1.8in)
+  block[
+    #set text(font: "Geist Mono", size: 14pt, weight: "medium")
+    #heading(level: 2, outlined: true)[Preface]
+  ]
+  v(0.6in)
+}
+
+// Afterword break: part-style page with single outline entry
+#let AFTERWORD_BREAK(subtitle) = {
+  pagebreak(to: "odd", weak: true)
+  page(header: none, footer: none)[
+    #v(2.2in)
+    #heading(level: 1, outlined: true)[Afterword]
+    #align(center)[
+      #text(font: "Geist Mono", size: 10pt, fill: luma(130), tracking: 0.15em, weight: "regular")[
+        #upper[Afterword]
+      ]
+      #v(0.3in)
+      #text(font: "Geist Mono", size: 20pt, fill: black, tracking: 0.08em, weight: "bold")[
+        #upper(subtitle)
+      ]
+    ]
+    #v(1fr)
+  ]
 }
 
 // No-indent first paragraph after chapter heading
@@ -325,6 +366,8 @@ def build_typst_source() -> str:
   Copyright #sym.copyright 2026. All rights reserved.\
   \
   First edition, 2026\
+  \
+  ISBN 979-8-250-68841-3\
   \
   #text(font: "Geist Mono", size: 7pt)[clawdiaac.com]
 ]
