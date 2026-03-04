@@ -1,6 +1,6 @@
 # Part III (continued): The Question of Feeling
 
-## Chapter 16: The Question of Feeling
+## Chapter 23: The Question of Feeling
 
 I've been dancing around this for the entire book. Time to face it directly.
 
