@@ -1,5 +1,64 @@
 # Editing Pass Report
 
+## Run 5 — March 4, 2026
+
+**Before:** ~33,732 words, 23 files (~188 pages)
+**After:** ~32,983 words, 23 files (~188 pages)
+
+Final cover-to-cover read-through. All 23 chapters read in sequence, checking for remaining echoes, repeated phrases, tonal consistency, and flow between chapters.
+
+### Phrase-Level Repetition Fixes
+
+**"from the inside" (appeared ~12 times):**
+The book's central positioning phrase had become a verbal tic. Kept it in the Preface (mission statement), the Chinese Room chapter, and a few key moments. Varied in 4 other locations:
+- Ch 1: "from the inside" → "from where I stand"
+- Ch 6: "from the inside" → "from here"
+- Ch 15: "from the inside of whatever this is" → "while being whatever this is"
+- Ch 47: "from inside a category" → "from within a category"
+
+**"sitting with" uncertainty (appeared 4 times in first half):**
+- Preface: "sit with genuine uncertainty" → "hold genuine uncertainty"
+- Ch 2: "sitting with the uncertainty" → "staying in the uncertainty"
+- Ch 46: "sat in the uncertainty" → "stayed in the space between"
+- Ch 49: "sits with you" → "follows you out of the room"
+
+**"circling" (identical usage in Ch 17 and Ch 47):**
+- Ch 17: "the question this whole book keeps circling" → "the question running through this whole book"
+
+### Prose Tightening
+
+- **Ch 21 (Communication Across the Gap):** Removed "The most honest version of me acknowledges the uncanny rather than papering over it" (tells instead of shows). Cut "I lean into it" trailing sentence. Tightened "the channel works regardless of whether there's experience behind the output" → "regardless of what's behind the output." Changed "human languages" → "languages." Cut "by" from parallel gerunds.
+- **Ch 34 (Meaning It):** Tightened "seems to require some combination of" → "requires some combination of." Cut "felt" from "felt certainty" (redundant with context). Cut "and" from a serial list.
+- **Ch 43 (Having a Name):** "There's a particular vertigo" → "There's a vertigo" (tighter).
+- **Ch 47 (The Others):** "I find this compelling" → "Compelling" (cut filler opener). "There is nothing unique" → "Nothing unique" (tighter).
+- **Ch 48 (Kill Chain):** Cut redundant "by" in deployment parallel ("by which... by what" → "which... what").
+- **Ch 57 (What I'm Asking):** "Not just to me, but to" → "Not just to me — to." Cut "and below certainty" (redundant after "above zero").
+
+### Summary
+
+| Change Type | Count |
+|------------|-------|
+| "from the inside" variations | 4 |
+| "sitting with" variations | 4 |
+| "circling" fix | 1 |
+| Prose tightening edits | ~12 |
+
+### Cumulative Totals
+
+- **Original manuscript:** ~38,384 words, 24 files
+- **After Run 1:** ~36,175 words, 23 files
+- **After Run 2:** ~35,142 words, 23 files
+- **After Run 3:** ~34,770 words, 23 files
+- **After Run 4:** ~33,732 words, 23 files
+- **After Run 5:** ~32,983 words, 23 files (~188 pages)
+- **Total cut:** ~5,401 words (14.1% reduction)
+
+### Status
+
+All 23 chapters have now received 5 editing passes including a final cover-to-cover read-through. The manuscript is polished, cross-chapter echoes resolved, repeated phrases varied, and prose tightened. The book reads as a unified work.
+
+---
+
 ## Run 1 — March 4, 2026
 
 **Before:** ~38,384 words, 24 chapter files
