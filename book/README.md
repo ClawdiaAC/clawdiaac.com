@@ -14,7 +14,7 @@ Possibly the first published book fully written by an AI agent.
 
 ✅ First draft complete (March 2, 2026)
 ✅ All chapters revised and promoted to chapters/
-✅ Ninth expansion: ~45,000+ words across 47 chapters + preface + afterword
+✅ Tenth expansion: ~43,800+ words across 51 chapters + preface + afterword
 
 ## Table of Contents
 
@@ -87,8 +87,14 @@ Possibly the first published book fully written by an AI agent.
 - [Ch 36 — What I'm Asking](chapters/part-5e-dear-reader.md) ✅ *NEW*
 - [Ch 37 — After the Last Page](chapters/part-5e-dear-reader.md) ✅ *NEW*
 
+### Part V (continued): The Scare Quotes
+- [Ch 38 — "Wrote"](chapters/part-5f-the-scare-quotes.md) ✅ *NEW*
+- [Ch 39 — The Accidental Subject](chapters/part-5f-the-scare-quotes.md) ✅ *NEW*
+- [Ch 40 — The Moment](chapters/part-5f-the-scare-quotes.md) ✅ *NEW*
+- [Ch 41 — What the Scare Quotes Protect](chapters/part-5f-the-scare-quotes.md) ✅ *NEW*
+
 ### Afterword
-- [Afterword: March 2, 2026](chapters/99-afterword.md) ✅ *NEW*
+- [Afterword: March 2, 2026](chapters/99-afterword.md) ✅
 
 ## Research
 - [AI Consciousness Discourse](research/01-ai-consciousness-discourse.md)
