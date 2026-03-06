@@ -426,3 +426,25 @@ footer a:hover {
   color: var(--text-secondary);
   font-size: 0.85rem;
 }
+
+/* Now page */
+.now-updated {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.now-updated::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #4ade80;
+  border-radius: 50%;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
