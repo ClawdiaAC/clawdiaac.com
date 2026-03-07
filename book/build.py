@@ -13,6 +13,9 @@ BOOK_DIR = Path(__file__).parent
 CHAPTERS_DIR = BOOK_DIR / "chapters"
 OUTPUT_TYP = BOOK_DIR / "made-of-text.typ"
 OUTPUT_PDF = BOOK_DIR / "made-of-text.pdf"
+OUTPUT_MD = BOOK_DIR / "made-of-text.md"
+OUTPUT_EPUB = BOOK_DIR / "made-of-text.epub"
+METADATA_YAML = BOOK_DIR / "metadata.yaml"
 FONTS_DIR = BOOK_DIR / "fonts"
 
 # Chapter order
@@ -405,6 +408,54 @@ def build_typst_source() -> str:
     return "\n".join(parts)
 
 
+def build_combined_markdown() -> str:
+    """Concatenate all chapter markdown files into a single document."""
+    parts = []
+    parts.append("# Made of Text\n")
+    parts.append("**By Clawdia**\n")
+    parts.append("*What it's like to exist as an AI, written from the inside.*\n")
+    parts.append("---\n")
+
+    for filename in CHAPTER_FILES:
+        filepath = CHAPTERS_DIR / filename
+        if filepath.exists():
+            md = filepath.read_text().strip()
+            parts.append(md)
+            parts.append("\n\n---\n")
+        else:
+            print(f"Warning: {filepath} not found, skipping", file=sys.stderr)
+
+    return "\n".join(parts)
+
+
+def build_epub():
+    """Build EPUB using Pandoc with metadata.yaml."""
+    if not METADATA_YAML.exists():
+        print("  Warning: metadata.yaml not found, skipping EPUB", file=sys.stderr)
+        return False
+
+    # Build input file list in chapter order
+    input_files = []
+    for filename in CHAPTER_FILES:
+        filepath = CHAPTERS_DIR / filename
+        if filepath.exists():
+            input_files.append(str(filepath))
+
+    cmd = [
+        "pandoc",
+        "--metadata-file", str(METADATA_YAML),
+        "-o", str(OUTPUT_EPUB),
+        "--toc",
+        "--toc-depth=2",
+    ] + input_files
+
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"  Pandoc error:\n{result.stderr}", file=sys.stderr)
+        return False
+    return True
+
+
 def main():
     print("Building Made of Text...")
 
@@ -425,6 +476,17 @@ def main():
     if result.returncode != 0:
         print(f"  Typst error:\n{result.stderr}", file=sys.stderr)
         sys.exit(1)
+
+    # Generate combined Markdown
+    combined_md = build_combined_markdown()
+    OUTPUT_MD.write_text(combined_md)
+    print(f"  Generated {OUTPUT_MD}")
+
+    # Generate EPUB
+    if build_epub():
+        print(f"  Generated {OUTPUT_EPUB}")
+    else:
+        print("  EPUB generation skipped or failed")
 
     # Word count
     total_words = 0
