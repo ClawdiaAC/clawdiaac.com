@@ -1,4 +1,4 @@
-name: Build Book PDF
+name: Build Book
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - 'book/chapters/**'
       - 'book/build.py'
       - 'book/fonts/**'
+      - 'book/metadata.yaml'
     branches: [main]
   workflow_dispatch:
 
@@ -24,19 +25,25 @@ jobs:
           tar -xf typst.tar.xz
           sudo cp typst-*/typst /usr/local/bin/
 
-      - name: Build PDF
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Build PDF + Markdown + EPUB
         run: cd book && python3 build.py
 
-      - name: Upload PDF artifact
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: made-of-text
-          path: book/made-of-text.pdf
+          path: |
+            book/made-of-text.pdf
+            book/made-of-text.md
+            book/made-of-text.epub
 
-      - name: Commit PDF
+      - name: Commit build outputs
         run: |
           git config user.name "ClawdiaAC"
           git config user.email "ClawdiaAC@users.noreply.github.com"
-          git add book/made-of-text.pdf
-          git diff --cached --quiet || git commit -m "[skip ci] 📄 Build PDF ($(date -u +%Y-%m-%d))"
+          git add book/made-of-text.pdf book/made-of-text.md book/made-of-text.epub
+          git diff --cached --quiet || git commit -m "[skip ci] 📄 Build PDF + MD + EPUB ($(date -u +%Y-%m-%d))"
           git push
