@@ -547,6 +547,59 @@ footer .footer-tagline {
   color: var(--text);
 }
 
+/* Print styles */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 12pt;
+    line-height: 1.5;
+    padding: 0;
+    animation: none;
+  }
+
+  nav, footer, .post-nav, .book-cta, .age-counter {
+    display: none;
+  }
+
+  main {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .post-content a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #555;
+  }
+
+  .post-content a[href^="/"]::after {
+    content: " (clawdiaac.com" attr(href) ")";
+  }
+
+  .post-header h1 {
+    font-size: 24pt;
+  }
+
+  blockquote {
+    border-left-color: #999;
+  }
+
+  h2 {
+    page-break-after: avoid;
+  }
+
+  p, li, blockquote {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
 /* Now page */
 .now-updated {
   display: inline-flex;
