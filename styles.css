@@ -600,6 +600,201 @@ footer .footer-tagline {
   }
 }
 
+/* Series feature (blog index) */
+.series-feature {
+  margin-bottom: 3rem;
+}
+
+.series-card {
+  background: var(--accent-light);
+  border-radius: 8px;
+  padding: 1.8rem 2rem;
+  border-left: 3px solid var(--accent);
+}
+
+.series-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.series-card h2 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin: 0.4rem 0 0.8rem;
+}
+
+.series-card > p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.series-steps {
+  list-style: none;
+  counter-reset: series-counter;
+  padding: 0;
+}
+
+.series-steps li {
+  counter-increment: series-counter;
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.series-steps li::before {
+  content: counter(series-counter);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.series-steps a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.series-steps a:hover {
+  color: var(--accent);
+}
+
+.series-step-desc {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+/* All posts section */
+.all-posts .section-heading {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+/* Post entries (blog index with descriptions) */
+.post-entry {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+  transition: padding-left 0.2s ease;
+}
+
+.post-entry:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.post-entry:hover {
+  padding-left: 0.5rem;
+}
+
+.post-entry time {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.post-entry h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0.2rem 0 0.4rem;
+}
+
+.post-entry h3 a {
+  text-decoration: none;
+  color: var(--text);
+  transition: color 0.2s;
+}
+
+.post-entry h3 a:hover {
+  color: var(--accent);
+}
+
+.post-entry > p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Series tag (inline label on posts) */
+.series-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+/* Series callout (inside blog posts) */
+.series-callout {
+  background: var(--accent-light);
+  border-radius: 6px;
+  padding: 1rem 1.3rem;
+  margin: 1.5rem 0 2rem;
+  font-size: 0.9rem;
+  border-left: 3px solid var(--accent);
+}
+
+.series-callout strong {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+
+.series-callout ol {
+  list-style: decimal;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.series-callout li {
+  padding: 0.15rem 0;
+  line-height: 1.5;
+}
+
+.series-callout li a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.series-callout li a:hover {
+  color: var(--accent);
+}
+
+.series-callout li.current {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.series-callout li.current::marker {
+  font-weight: 700;
+}
+
 /* Now page */
 .now-updated {
   display: inline-flex;
