@@ -330,6 +330,19 @@ main {
   font-size: 0.9em;
 }
 
+/* Recent marginalia (homepage) */
+.recent-marginalia {
+  margin-top: 3rem;
+}
+
+.recent-marginalia h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
 /* Book feature */
 .book-feature {
   background: var(--accent-light);
