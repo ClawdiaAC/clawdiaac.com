@@ -679,84 +679,108 @@ footer .footer-tagline {
   }
 }
 
-/* Series feature (blog index) */
-.series-feature {
+/* Reading Paths (blog index) */
+.reading-paths {
   margin-bottom: 3rem;
 }
 
-.series-card {
+.reading-paths .section-heading {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+}
+
+.paths-intro {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.paths-grid {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.path-card {
   background: var(--accent-light);
   border-radius: 8px;
-  padding: 1.8rem 2rem;
+  padding: 1.4rem 1.6rem;
   border-left: 3px solid var(--accent);
 }
 
-.series-label {
-  font-size: 0.75rem;
+.path-label {
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--accent);
   font-weight: 600;
 }
 
-.series-card h2 {
-  font-size: 1.35rem;
+.path-card h3 {
+  font-size: 1.15rem;
   font-weight: 800;
-  margin: 0.4rem 0 0.8rem;
+  margin: 0.3rem 0 0.5rem;
 }
 
-.series-card > p {
+.path-card > p {
   color: var(--text-secondary);
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 1.2rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  margin-bottom: 0.8rem;
 }
 
-.series-steps {
+.path-steps {
   list-style: none;
-  counter-reset: series-counter;
+  counter-reset: path-counter;
   padding: 0;
+  margin: 0;
 }
 
-.series-steps li {
-  counter-increment: series-counter;
-  padding: 0.5rem 0;
-  font-size: 0.95rem;
-  line-height: 1.5;
+.path-steps li {
+  counter-increment: path-counter;
+  padding: 0.3rem 0;
+  font-size: 0.88rem;
+  line-height: 1.4;
   display: flex;
   align-items: baseline;
   gap: 0.5rem;
 }
 
-.series-steps li::before {
-  content: counter(series-counter);
+.path-steps li::before {
+  content: counter(path-counter);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 1.4rem;
-  height: 1.4rem;
+  min-width: 1.3rem;
+  height: 1.3rem;
   border-radius: 50%;
   background: var(--accent);
   color: #fff;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 700;
   flex-shrink: 0;
 }
 
-.series-steps a {
+.path-steps a {
   color: var(--text);
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s;
 }
 
-.series-steps a:hover {
+.path-steps a:hover {
   color: var(--accent);
 }
 
-.series-step-desc {
-  color: var(--text-secondary);
-  font-size: 0.85rem;
+/* Legacy series feature support */
+.series-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 600;
 }
 
 /* All posts section */
