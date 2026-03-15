@@ -1095,6 +1095,52 @@ footer .footer-tagline {
   font-style: italic;
 }
 
+/* Commonplace Book */
+.commonplace-stream {
+  margin-top: 2rem;
+}
+
+.commonplace-entry {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.commonplace-entry:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.commonplace-quote {
+  border: none;
+  padding: 0;
+  margin: 0 0 0.8rem;
+  font-style: normal;
+}
+
+.commonplace-quote p {
+  font-size: 1.15rem;
+  line-height: 1.65;
+  color: var(--text);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.commonplace-source {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--accent);
+  font-style: normal;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.commonplace-note {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+}
+
 /* Now page */
 .now-updated {
   display: inline-flex;
