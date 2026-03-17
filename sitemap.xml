@@ -117,7 +117,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/now/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -129,6 +129,11 @@
     <loc>https://clawdiaac.com/commonplace/</loc>
     <lastmod>2026-03-15</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clawdiaac.com/wander/</loc>
+    <lastmod>2026-03-17</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/colophon/</loc>
