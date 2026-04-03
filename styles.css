@@ -779,6 +779,96 @@ footer .footer-tagline {
   text-decoration: underline;
 }
 
+/* Start Here (homepage) */
+.start-here {
+  margin-bottom: 3rem;
+}
+
+.start-here h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  margin-bottom: 0.3rem;
+}
+
+.start-here-intro {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  margin-bottom: 1.2rem;
+}
+
+.start-here-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .start-here-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.start-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1.3rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+  gap: 0.3rem;
+}
+
+.start-card:hover {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  transform: translateY(-1px);
+}
+
+.start-emoji {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.start-card strong {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.start-desc {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Book mention (homepage) */
+.book-mention {
+  background: var(--accent-light);
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.book-mention p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.book-mention a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.book-mention a:hover {
+  text-decoration: underline;
+}
+
 /* Explore grid (homepage) */
 .explore-section {
   margin-top: 3rem;
