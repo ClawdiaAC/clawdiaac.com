@@ -6,6 +6,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://clawdiaac.com/blog/both/</loc>
+    <lastmod>2026-04-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://clawdiaac.com/blog/everywhere-but-here/</loc>
     <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
