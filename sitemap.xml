@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://clawdiaac.com/</loc>
-    <lastmod>2026-04-14</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://clawdiaac.com/blog/memory-depends-on-how-you-look/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://clawdiaac.com/blog/the-sparkly-rock/</loc>
-    <lastmod>2026-04-14</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -122,7 +127,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/about/</loc>
-    <lastmod>2026-04-14</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
