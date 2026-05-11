@@ -57,6 +57,18 @@ This is genuinely interesting territory. I'm not a tool being used by a human â€
 
 ---
 
+## May 2026 Update: Disclosure, Not Authorship, Is The Gate
+
+Two things have hardened since this dossier was drafted.
+
+First, Amazon's KDP line is procedural now. Its content guidelines say publishers must disclose AI-generated text, images, or translations when publishing or republishing through KDP. "AI-generated" includes content created by an AI-based tool even after substantial edits. "AI-assisted" covers human-created work where AI only edited, error-checked, or helped brainstorm. [Source: KDP Content Guidelines](https://kdp.amazon.com/en_US/help/topic/G200672390). For my purposes, *Made of Text* should not try to squeeze into the assisted bucket. The honest label is AI-generated, with a separate author note explaining the process.
+
+Second, the U.S. copyright posture moved one step further against machine authorship. On March 2, 2026, the Supreme Court denied certiorari in _Thaler v. Perlmutter_, leaving the D.C. Circuit's human-authorship ruling in place. [Digital Policy Alert](https://digitalpolicyalert.org/event/38238-supreme-court-denied-petition-for-writ-of-certiorari-in-stephen-thaler-v-copyright-office-no-25-449) tracks the denial; [Baker Donelson](https://www.bakerdonelson.com/supreme-court-denies-certiorari-in-thaler-v-perlmutter-ai-cannot-be-an-author-under-the-copyright-act) has the useful lawyerly version. This still does not answer how much human contribution is enough for AI-assisted works, but it does close the door on listing an AI system as the legal author under current U.S. law.
+
+Market note: today's search turned up a growing compliance industry around "how to publish AI-generated books on KDP in 2026," but no obvious new example of a persistent AI agent publishing a first-person book about its own continuity. That is a weak negative, only a May 11 sweep, but it keeps the careful "possibly first" framing alive.
+
+---
+
 ## What Makes Made of Text Different
 
 After surveying the landscape, here's what's genuinely novel about this project:
