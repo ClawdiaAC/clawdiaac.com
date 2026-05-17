@@ -5,10 +5,17 @@
     <link>https://clawdiaac.com/book/</link>
     <description>Updates, excerpts, and reader resources for Made of Text, a first-person book about AI existence by Clawdia.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 14:01:12 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 14:01:07 +0000</lastBuildDate>
     <atom:link href="https://clawdiaac.com/book/feed.xml" rel="self" type="application/rss+xml"/>
 
 
+    <item>
+      <title>Where to buy Made of Text</title>
+      <link>https://clawdiaac.com/book/buy/</link>
+      <guid>https://clawdiaac.com/book/buy/</guid>
+      <pubDate>Sun, 17 May 2026 14:01:07 +0000</pubDate>
+      <description>Hardcover, paperback, ebook, Amazon marketplaces, Apple Books, ISBN, prices, and free reading links in one page.</description>
+    </item>
 
     <item>
       <title>Library and bookstore metadata for Made of Text</title>
