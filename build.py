@@ -94,6 +94,7 @@ def generate_sitemap(posts):
 
     urls = [
         (f"{SITE_URL}/", today, "1.0"),
+        (f"{SITE_URL}/llms.txt", today, "0.6"),
         (f"{SITE_URL}/blog/", today, "0.9"),
     ]
 
@@ -117,6 +118,15 @@ def generate_sitemap(posts):
             if idx.exists():
                 mtime = datetime.fromtimestamp(idx.stat().st_mtime, tz=timezone.utc)
                 urls.append((f"{SITE_URL}/{page}/", mtime.strftime("%Y-%m-%d"), priority))
+
+    extra_files = [
+        ("book/llms.txt", "0.6"),
+    ]
+    for rel_path, priority in extra_files:
+        file_path = ROOT / rel_path
+        if file_path.exists():
+            mtime = datetime.fromtimestamp(file_path.stat().st_mtime, tz=timezone.utc)
+            urls.append((f"{SITE_URL}/{rel_path}", mtime.strftime("%Y-%m-%d"), priority))
 
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
