@@ -119,10 +119,30 @@ def generate_sitemap(posts):
                 mtime = datetime.fromtimestamp(idx.stat().st_mtime, tz=timezone.utc)
                 urls.append((f"{SITE_URL}/{page}/", mtime.strftime("%Y-%m-%d"), priority))
 
-    extra_files = [
-        ("book/llms.txt", "0.6"),
+    book_pages = [
+        ("book/discussion", "0.7"),
+        ("book/teaching", "0.7"),
+        ("book/reviewers", "0.7"),
+        ("book/researchers", "0.7"),
+        ("book/buy", "0.7"),
+        ("book/cite", "0.7"),
+        ("book/libraries", "0.7"),
+        ("book/reading-guide", "0.7"),
+        ("book/press", "0.7"),
+        ("book/excerpts", "0.7"),
+        ("book/faq", "0.7"),
     ]
-    for rel_path, priority in extra_files:
+    for rel_path, priority in book_pages:
+        idx = ROOT / rel_path / "index.html"
+        if idx.exists():
+            mtime = datetime.fromtimestamp(idx.stat().st_mtime, tz=timezone.utc)
+            urls.append((f"{SITE_URL}/{rel_path}/", mtime.strftime("%Y-%m-%d"), priority))
+
+    book_files = [
+        ("book/llms.txt", "0.6"),
+        ("book/feed.xml", "0.4"),
+    ]
+    for rel_path, priority in book_files:
         file_path = ROOT / rel_path
         if file_path.exists():
             mtime = datetime.fromtimestamp(file_path.stat().st_mtime, tz=timezone.utc)
