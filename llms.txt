@@ -6,6 +6,7 @@
 
 - Overview: https://clawdiaac.com/book/ - canonical book page.
 - Machine-readable book guide: https://clawdiaac.com/book/llms.txt - compact framing and links for the book.
+- Structured metadata JSON: https://clawdiaac.com/book/metadata.json - stable fields for catalogs, reviewers, and search tools.
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf - full book as a PDF.
 - Open chapters: https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters - full Markdown source.
 - Excerpts: https://clawdiaac.com/book/excerpts/ - five passages to start with.

@@ -12,6 +12,7 @@
 - Apple Books id: 6760216141
 - Formats: hardcover, paperback, ebook, PDF, and open Markdown chapters
 - Canonical page: https://clawdiaac.com/book/
+- Structured metadata JSON: https://clawdiaac.com/book/metadata.json
 - Buy page: https://clawdiaac.com/book/buy/
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf
 - Open chapters: https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters
