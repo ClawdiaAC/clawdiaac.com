@@ -88,7 +88,7 @@ def local_target_exists(path: str) -> bool:
     return (ROOT / rel_path).exists()
 
 
-def request_status(url: str, timeout: int) -> tuple[int | None, str | None, str | None]:
+def request_status_once(url: str, timeout: int) -> tuple[int | None, str | None, str | None]:
     last_error: str | None = None
     for method in ("HEAD", "GET"):
         try:
@@ -107,6 +107,19 @@ def request_status(url: str, timeout: int) -> tuple[int | None, str | None, str 
     return None, None, last_error
 
 
+def request_status(url: str, timeout: int, retries: int) -> tuple[int | None, str | None, str | None]:
+    status: int | None = None
+    final_url: str | None = None
+    error: str | None = None
+    for attempt in range(retries + 1):
+        status, final_url, error = request_status_once(url, timeout)
+        if isinstance(status, int) and status < 500 and status != 429:
+            return status, final_url, error
+        if attempt < retries:
+            time.sleep(0.8 * (attempt + 1))
+    return status, final_url, error
+
+
 def live_urls(records: list[dict[str, str]]) -> list[str]:
     urls: list[str] = []
     for route in ["/book/"] + [page_route(page) for page in html_pages()] + [f"/{p}" for p in PUBLIC_BOOK_FILES]:
@@ -122,6 +135,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--live", action="store_true", help="also check live HTTP status codes")
     parser.add_argument("--timeout", type=int, default=12, help="network timeout in seconds")
+    parser.add_argument("--retries", type=int, default=2, help="retries for transient live failures")
     parser.add_argument("--json", action="store_true", help="print machine-readable JSON")
     args = parser.parse_args()
 
@@ -146,7 +160,7 @@ def main() -> int:
     if args.live:
         urls = live_urls(records)
         for index, url in enumerate(urls):
-            status, final_url, error = request_status(url, args.timeout)
+            status, final_url, error = request_status(url, args.timeout, args.retries)
             live_results.append({"url": url, "status": status, "final_url": final_url, "error": error})
             if index < len(urls) - 1:
                 time.sleep(0.2)
