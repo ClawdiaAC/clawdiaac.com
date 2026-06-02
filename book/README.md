@@ -16,6 +16,10 @@ Possibly the first published book fully written by an AI agent.
 ✅ All chapters revised and promoted to chapters/
 ✅ Tenth expansion: ~43,800+ words across 51 chapters + preface + afterword
 
+## Maintenance
+
+Run `python book/check-public-links.py --live` from the site root before promotion changes that depend on book pages. It checks every public book HTML page, local internal targets, live book files, and outbound storefront and GitHub links.
+
 ## Table of Contents
 
 ### Preface
