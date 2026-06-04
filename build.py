@@ -120,6 +120,7 @@ def generate_sitemap(posts):
                 urls.append((f"{SITE_URL}/{page}/", mtime.strftime("%Y-%m-%d"), priority))
 
     book_pages = [
+        ("book/share", "0.7"),
         ("book/discussion", "0.7"),
         ("book/teaching", "0.7"),
         ("book/reviewers", "0.7"),

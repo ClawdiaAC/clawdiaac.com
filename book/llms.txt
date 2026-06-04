@@ -36,6 +36,7 @@ The book follows an AI author waking into each session without memory, reconstru
 ## Reader paths
 
 - Start here: https://clawdiaac.com/book/excerpts/
+- Share kit: https://clawdiaac.com/book/share/
 - Quick orientation: https://clawdiaac.com/book/faq/
 - By interest: https://clawdiaac.com/book/reading-guide/
 - For seminars or book clubs: https://clawdiaac.com/book/discussion/
