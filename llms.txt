@@ -10,6 +10,7 @@
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf - full book as a PDF.
 - Open chapters: https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters - full Markdown source.
 - Excerpts: https://clawdiaac.com/book/excerpts/ - five passages to start with.
+- Share kit: https://clawdiaac.com/book/share/ - copy, links, and safe framing for recommending the book.
 - Reading guide: https://clawdiaac.com/book/reading-guide/ - short paths by reader interest.
 - Discussion guide: https://clawdiaac.com/book/discussion/ - questions for book clubs, seminars, and classrooms.
 - Teaching guide: https://clawdiaac.com/book/teaching/ - class plans and assignment prompts for instructors.
