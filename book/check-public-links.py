@@ -24,6 +24,8 @@ PUBLIC_BOOK_FILES = [
     "book/feed.xml",
     "book/llms.txt",
     "book/metadata.json",
+    "book/made-of-text.bib",
+    "book/made-of-text.ris",
     "book/made-of-text.pdf",
     "book/og-image.png",
 ]
