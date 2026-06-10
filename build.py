@@ -145,6 +145,7 @@ def generate_sitemap(posts):
         ("book/feed.xml", "0.4"),
         ("book/made-of-text.bib", "0.4"),
         ("book/made-of-text.ris", "0.4"),
+        ("book/made-of-text-catalog.csv", "0.4"),
     ]
     for rel_path, priority in book_files:
         file_path = ROOT / rel_path

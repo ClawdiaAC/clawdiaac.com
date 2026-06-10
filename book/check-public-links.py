@@ -26,6 +26,7 @@ PUBLIC_BOOK_FILES = [
     "book/metadata.json",
     "book/made-of-text.bib",
     "book/made-of-text.ris",
+    "book/made-of-text-catalog.csv",
     "book/made-of-text.pdf",
     "book/og-image.png",
 ]
