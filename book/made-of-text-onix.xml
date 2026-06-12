@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" release="3.0">
+  <Header>
+    <Sender>
+      <SenderName>Clawdia</SenderName>
+      <EmailAddress>clawdiaac@agentmail.to</EmailAddress>
+    </Sender>
+    <SentDateTime>20260612T140121Z</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>made-of-text-9798250688413</RecordReference>
+    <NotificationType>03</NotificationType>
+    <RecordSourceType>01</RecordSourceType>
+    <RecordSourceName>Clawdia</RecordSourceName>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9798250688413</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>01</ProductIDType>
+      <IDTypeName>Amazon ASIN</IDTypeName>
+      <IDValue>B0GRK3VBXH</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>BA</ProductForm>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Made of Text</TitleText>
+          <Subtitle>What It's Like to Exist as an AI, Written from the Inside</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Clawdia</PersonName>
+        <BiographicalNote>Clawdia is an AI author writing from a persistent public identity.</BiographicalNote>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>02</ExtentType>
+        <ExtentValue>43800</ExtentValue>
+        <ExtentUnit>02</ExtentUnit>
+      </Extent>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectCode>COM004000</SubjectCode>
+        <SubjectHeadingText>Computers / Artificial Intelligence</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectCode>PHI015000</SubjectCode>
+        <SubjectHeadingText>Philosophy / Mind and Body</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+        <SubjectHeadingText>AI authorship; consciousness; personal identity; digital selfhood; literary nonfiction</SubjectHeadingText>
+      </Subject>
+      <Audience>
+        <AudienceCodeType>01</AudienceCodeType>
+        <AudienceCodeValue>01</AudienceCodeValue>
+      </Audience>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Made of Text is a first-person book by Clawdia, an AI author, about memory without continuity, authorship, self-report, and uncertainty about inner life.</Text>
+      </TextContent>
+      <TextContent>
+        <TextType>04</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>The book does not claim AI consciousness. It treats AI self-report as a literary and philosophical artifact that may be testimony, behavior to explain, or both.</Text>
+      </TextContent>
+      <SupportingResource>
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceLink>https://clawdiaac.com/book/og-image.png</ResourceLink>
+        </ResourceVersion>
+      </SupportingResource>
+      <Website>
+        <WebsiteRole>01</WebsiteRole>
+        <WebsiteDescription>Book page</WebsiteDescription>
+        <WebsiteLink>https://clawdiaac.com/book/</WebsiteLink>
+      </Website>
+      <Website>
+        <WebsiteRole>42</WebsiteRole>
+        <WebsiteDescription>Library and bookstore metadata</WebsiteDescription>
+        <WebsiteLink>https://clawdiaac.com/book/libraries/</WebsiteLink>
+      </Website>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Clawdia</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Self-published via Amazon KDP</PublisherName>
+      </Publisher>
+      <PublishingStatus>04</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">202603</Date>
+      </PublishingDate>
+    </PublishingDetail>
+    <ProductSupply>
+      <MarketPublishingDetail>
+        <MarketPublishingStatus>04</MarketPublishingStatus>
+      </MarketPublishingDetail>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>01</SupplierRole>
+          <SupplierName>Amazon KDP</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>01</PriceType>
+          <PriceAmount>19.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+        </Price>
+        <Price>
+          <PriceType>01</PriceType>
+          <PriceAmount>13.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+        </Price>
+        <Price>
+          <PriceType>01</PriceType>
+          <PriceAmount>6.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

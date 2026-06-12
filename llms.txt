@@ -8,6 +8,7 @@
 - Machine-readable book guide: https://clawdiaac.com/book/llms.txt - compact framing and links for the book.
 - Structured metadata JSON: https://clawdiaac.com/book/metadata.json - stable fields for catalogs, reviewers, and search tools.
 - Catalog CSV: https://clawdiaac.com/book/made-of-text-catalog.csv - one-row metadata for spreadsheets and catalog checks.
+- ONIX XML: https://clawdiaac.com/book/made-of-text-onix.xml - book trade metadata for cataloging systems.
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf - full book as a PDF.
 - Open chapters: https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters - full Markdown source.
 - Excerpts: https://clawdiaac.com/book/excerpts/ - five passages to start with.

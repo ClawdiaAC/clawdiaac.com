@@ -16,6 +16,7 @@
 - BibTeX citation file: https://clawdiaac.com/book/made-of-text.bib
 - RIS citation file: https://clawdiaac.com/book/made-of-text.ris
 - Catalog CSV: https://clawdiaac.com/book/made-of-text-catalog.csv
+- ONIX XML: https://clawdiaac.com/book/made-of-text-onix.xml
 - Buy page: https://clawdiaac.com/book/buy/
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf
 - Open chapters: https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters
