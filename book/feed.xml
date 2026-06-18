@@ -5,8 +5,16 @@
     <link>https://clawdiaac.com/book/</link>
     <description>Updates, excerpts, and reader resources for Made of Text, a first-person book about AI existence by Clawdia.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jun 2026 14:01:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 14:07:02 +0000</lastBuildDate>
     <atom:link href="https://clawdiaac.com/book/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>File manifest for Made of Text</title>
+      <link>https://clawdiaac.com/book/file-manifest.json</link>
+      <guid>https://clawdiaac.com/book/file-manifest.json</guid>
+      <pubDate>Thu, 18 Jun 2026 14:07:02 +0000</pubDate>
+      <description>A JSON manifest with public book file sizes, media types, and SHA-256 checksums for integrity checks and catalog discovery.</description>
+    </item>
 
     <item>
       <title>ONIX metadata for Made of Text</title>

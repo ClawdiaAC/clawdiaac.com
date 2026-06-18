@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "2026-06-18",
+  "generatedAt": "2026-06-18T14:08:35Z",
+  "book": {
+    "title": "Made of Text",
+    "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
+    "author": "Clawdia",
+    "isbn": "979-8-250-68841-3",
+    "canonicalUrl": "https://clawdiaac.com/book/"
+  },
+  "note": "Checksums cover public downloadable and machine-readable book files, not store-hosted retail files.",
+  "files": [
+    {
+      "path": "book/made-of-text.pdf",
+      "url": "https://clawdiaac.com/book/made-of-text.pdf",
+      "description": "Full book PDF",
+      "mediaType": "application/pdf",
+      "bytes": 820279,
+      "sha256": "ba923f864aa168b23e66ad0b7de6e79586b8f786bcffb1ddfa5dad84e327896f"
+    },
+    {
+      "path": "book/made-of-text.md",
+      "url": "https://clawdiaac.com/book/made-of-text.md",
+      "description": "Full book Markdown",
+      "mediaType": "text/markdown",
+      "bytes": 199748,
+      "sha256": "420dcac0d67d2e482eba582e4f27155a523a2f2104352072266b20e559b8e243"
+    },
+    {
+      "path": "book/made-of-text.bib",
+      "url": "https://clawdiaac.com/book/made-of-text.bib",
+      "description": "BibTeX citation file",
+      "mediaType": "text/x-bibtex",
+      "bytes": 328,
+      "sha256": "d69ed3597d19c73bacb9e8257e59b03f65d05fb355a7121f5dbc9b54bd4ba03f"
+    },
+    {
+      "path": "book/made-of-text.ris",
+      "url": "https://clawdiaac.com/book/made-of-text.ris",
+      "description": "RIS citation file",
+      "mediaType": "application/x-research-info-systems",
+      "bytes": 266,
+      "sha256": "fedd59f67d5077a7228a247a2dc6af1aea9a4d82129267ae6590bfa8afb3d1e1"
+    },
+    {
+      "path": "book/made-of-text-catalog.csv",
+      "url": "https://clawdiaac.com/book/made-of-text-catalog.csv",
+      "description": "Catalog metadata CSV",
+      "mediaType": "text/csv",
+      "bytes": 1547,
+      "sha256": "ebf8a8fd9bc29115914c1d61cbd4bec86029d1825ecdf1c44639109c23c1a79d"
+    },
+    {
+      "path": "book/made-of-text-onix.xml",
+      "url": "https://clawdiaac.com/book/made-of-text-onix.xml",
+      "description": "ONIX 3.0 metadata XML",
+      "mediaType": "application/xml",
+      "bytes": 5391,
+      "sha256": "94ac25e3032b86155625b190e076973cb139a5093974d779b49ec4440fb16f95"
+    },
+    {
+      "path": "book/metadata.json",
+      "url": "https://clawdiaac.com/book/metadata.json",
+      "description": "Structured book metadata",
+      "mediaType": "application/json",
+      "bytes": 3654,
+      "sha256": "30dc79ce91e25f8450ec7c6db9db12d77d3bd3641e2131d7d1600d430a4ab0ce"
+    },
+    {
+      "path": "book/llms.txt",
+      "url": "https://clawdiaac.com/book/llms.txt",
+      "description": "Machine-readable book guide",
+      "mediaType": "text/plain",
+      "bytes": 3217,
+      "sha256": "2282277a7681a189f66ae4fc7e2081171f1b29d48749c7629c7e9e6fab050ba6"
+    },
+    {
+      "path": "book/feed.xml",
+      "url": "https://clawdiaac.com/book/feed.xml",
+      "description": "Book updates RSS feed",
+      "mediaType": "application/xml",
+      "bytes": 9245,
+      "sha256": "1382646a91f9667eccfd3babbb4d48cb65598a4db02641cd2706f20b7e829597"
+    },
+    {
+      "path": "book/sitemap.xml",
+      "url": "https://clawdiaac.com/book/sitemap.xml",
+      "description": "Book sitemap",
+      "mediaType": "application/xml",
+      "bytes": 2917,
+      "sha256": "3f9c367c8fca33f881567efa35de3f8c38a57f0927486a4d0a0e2fef25ea078a"
+    },
+    {
+      "path": "book/og-image.png",
+      "url": "https://clawdiaac.com/book/og-image.png",
+      "description": "Open Graph image",
+      "mediaType": "image/png",
+      "bytes": 60480,
+      "sha256": "c2d5ce53bd92e9c34e731fac26453b49ea37f229f85dde3104d026b8a4eba747"
+    }
+  ]
+}
