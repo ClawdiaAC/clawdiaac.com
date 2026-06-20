@@ -34,6 +34,7 @@ DEFAULT_URLS = [
     f"{SITE_URL}/book/libraries/",
     f"{SITE_URL}/book/llms.txt",
     f"{SITE_URL}/book/metadata.json",
+    f"{SITE_URL}/book/book.jsonld",
     f"{SITE_URL}/book/file-manifest.json",
     f"{SITE_URL}/book/made-of-text-catalog.csv",
     f"{SITE_URL}/book/made-of-text-onix.xml",
