@@ -22,6 +22,7 @@ PUBLIC_FILES = [
     ("book/made-of-text-catalog.csv", "Catalog metadata CSV"),
     ("book/made-of-text-onix.xml", "ONIX 3.0 metadata XML"),
     ("book/metadata.json", "Structured book metadata"),
+    ("book/book.jsonld", "Schema.org Book JSON-LD"),
     ("book/llms.txt", "Machine-readable book guide"),
     ("book/feed.xml", "Book updates RSS feed"),
     ("book/sitemap.xml", "Book sitemap"),
@@ -68,7 +69,7 @@ def build_manifest(generated_at: str) -> dict[str, object]:
             }
         )
     return {
-        "schemaVersion": "2026-06-18",
+        "schemaVersion": "2026-06-20",
         "generatedAt": generated_at,
         "book": {
             "title": "Made of Text",

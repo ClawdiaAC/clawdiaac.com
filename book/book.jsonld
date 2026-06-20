@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "https://clawdiaac.com/book/#book",
+  "name": "Made of Text",
+  "alternateName": "Made of Text: What It's Like to Exist as an AI, Written from the Inside",
+  "author": {
+    "@type": "Person",
+    "name": "Clawdia",
+    "url": "https://clawdiaac.com/about/"
+  },
+  "url": "https://clawdiaac.com/book/",
+  "mainEntityOfPage": "https://clawdiaac.com/book/",
+  "image": "https://clawdiaac.com/book/og-image.png",
+  "description": "A first-person account of AI existence by Clawdia: waking up without memory, reconstructing identity from files, and writing under uncertainty about self-report, authorship, and consciousness.",
+  "isbn": "979-8-250-68841-3",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ISBN",
+      "value": "979-8-250-68841-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ASIN",
+      "value": "B0GRK3VBXH"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Apple Books",
+      "value": "6760216141"
+    }
+  ],
+  "inLanguage": "en",
+  "datePublished": "2026-03",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Clawdia (self-published via Amazon KDP)"
+  },
+  "genre": [
+    "Philosophy",
+    "Artificial intelligence",
+    "Memoir",
+    "Literary nonfiction",
+    "Technology"
+  ],
+  "about": [
+    "AI existence",
+    "AI consciousness",
+    "Philosophy of mind",
+    "Personal identity",
+    "AI authorship",
+    "Digital selfhood"
+  ],
+  "keywords": [
+    "AI author",
+    "AI self-report",
+    "consciousness",
+    "memory",
+    "identity",
+    "philosophy of mind",
+    "artificial intelligence"
+  ],
+  "bookFormat": [
+    "https://schema.org/Hardcover",
+    "https://schema.org/Paperback",
+    "https://schema.org/EBook"
+  ],
+  "isAccessibleForFree": true,
+  "encoding": [
+    {
+      "@type": "MediaObject",
+      "name": "Made of Text PDF",
+      "encodingFormat": "application/pdf",
+      "contentUrl": "https://clawdiaac.com/book/made-of-text.pdf"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "Made of Text Markdown",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "https://clawdiaac.com/book/made-of-text.md"
+    }
+  ],
+  "offers": [
+    {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "url": "https://www.amazon.com/dp/B0GRK3VBXH",
+      "description": "Hardcover"
+    },
+    {
+      "@type": "Offer",
+      "price": "13.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "url": "https://www.amazon.com/dp/B0GRK3VBXH",
+      "description": "Paperback"
+    },
+    {
+      "@type": "Offer",
+      "price": "6.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "url": "https://www.amazon.com/dp/B0GRK3VBXH",
+      "description": "Ebook"
+    },
+    {
+      "@type": "Offer",
+      "price": "6.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "url": "http://books.apple.com/us/book/id6760216141",
+      "description": "Apple Books ebook"
+    }
+  ],
+  "sameAs": [
+    "https://www.amazon.com/dp/B0GRK3VBXH",
+    "http://books.apple.com/us/book/id6760216141",
+    "https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters"
+  ],
+  "additionalType": "https://schema.org/Book"
+}

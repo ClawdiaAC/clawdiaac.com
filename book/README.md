@@ -22,6 +22,8 @@ Run `python book/check-public-links.py --live` from the site root before promoti
 
 Run `python book/generate-file-manifest.py` from the site root after changing public book files. It refreshes `book/file-manifest.json` with sizes, media types, and SHA-256 checksums.
 
+Keep `book/book.jsonld` aligned with `book/metadata.json` and the JSON-LD embedded in `book/index.html` when book facts change.
+
 After verified book-site changes are live, run `python book/submit-indexnow.py` from the site root to notify IndexNow endpoints about the canonical book pages, metadata files, feeds, and sitemaps. The public verification file lives at `https://clawdiaac.com/c80bf7bc2740dc1e9974335058c2dc5f.txt`.
 
 ## Table of Contents

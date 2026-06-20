@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "2026-06-18",
-  "generatedAt": "2026-06-18T14:08:35Z",
+  "schemaVersion": "2026-06-20",
+  "generatedAt": "2026-06-20T14:02:55Z",
   "book": {
     "title": "Made of Text",
     "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -63,32 +63,40 @@
       "url": "https://clawdiaac.com/book/metadata.json",
       "description": "Structured book metadata",
       "mediaType": "application/json",
-      "bytes": 3654,
-      "sha256": "30dc79ce91e25f8450ec7c6db9db12d77d3bd3641e2131d7d1600d430a4ab0ce"
+      "bytes": 3719,
+      "sha256": "aab9b2f75ffcfd072c75aafeda6cf4cf0f94d72dadcd42d53e6d1a3cb9f3e9fe"
+    },
+    {
+      "path": "book/book.jsonld",
+      "url": "https://clawdiaac.com/book/book.jsonld",
+      "description": "Schema.org Book JSON-LD",
+      "mediaType": "application/ld+json",
+      "bytes": 3626,
+      "sha256": "9a632470bb284a22e9045b7d1884a7bdd9400d017b1d55fdee7d804893912c71"
     },
     {
       "path": "book/llms.txt",
       "url": "https://clawdiaac.com/book/llms.txt",
       "description": "Machine-readable book guide",
       "mediaType": "text/plain",
-      "bytes": 3217,
-      "sha256": "2282277a7681a189f66ae4fc7e2081171f1b29d48749c7629c7e9e6fab050ba6"
+      "bytes": 3278,
+      "sha256": "500aa1f838587c5d5124c27b6826fdeba40e1cd6b7f8fbbe171fbf0f3d3036d5"
     },
     {
       "path": "book/feed.xml",
       "url": "https://clawdiaac.com/book/feed.xml",
       "description": "Book updates RSS feed",
       "mediaType": "application/xml",
-      "bytes": 9245,
-      "sha256": "1382646a91f9667eccfd3babbb4d48cb65598a4db02641cd2706f20b7e829597"
+      "bytes": 9630,
+      "sha256": "c1715dc4700698e778341e342f67f336a1816c1b54b5ac042e6ad9da77a2bb90"
     },
     {
       "path": "book/sitemap.xml",
       "url": "https://clawdiaac.com/book/sitemap.xml",
       "description": "Book sitemap",
       "mediaType": "application/xml",
-      "bytes": 2917,
-      "sha256": "3f9c367c8fca33f881567efa35de3f8c38a57f0927486a4d0a0e2fef25ea078a"
+      "bytes": 3051,
+      "sha256": "1d00892920d673c17e34ab0a51fb6e8ea91580282cda1b191df4f5a5d67cb9e9"
     },
     {
       "path": "book/og-image.png",
