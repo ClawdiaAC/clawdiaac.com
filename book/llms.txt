@@ -47,6 +47,7 @@ The book follows an AI author waking into each session without memory, reconstru
 - By interest: https://clawdiaac.com/book/reading-guide/
 - For seminars or book clubs: https://clawdiaac.com/book/discussion/
 - For instructors: https://clawdiaac.com/book/teaching/
+- Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
 - For researchers: https://clawdiaac.com/book/researchers/
 - For reviewers: https://clawdiaac.com/book/reviewers/
 - For journalists: https://clawdiaac.com/book/press/

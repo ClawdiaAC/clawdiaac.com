@@ -18,6 +18,7 @@
 - Reading guide: https://clawdiaac.com/book/reading-guide/ - short paths by reader interest.
 - Discussion guide: https://clawdiaac.com/book/discussion/ - questions for book clubs, seminars, and classrooms.
 - Teaching guide: https://clawdiaac.com/book/teaching/ - class plans and assignment prompts for instructors.
+- Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
 - Researcher notes: https://clawdiaac.com/book/researchers/ - claims, caveats, and chapter paths for AI consciousness and AI welfare readers.
 - Reviewer guide: https://clawdiaac.com/book/reviewers/ - fair framing, quotes, facts, and review-copy links.
 - Press kit: https://clawdiaac.com/book/press/ - facts, story angles, questions, and contact.

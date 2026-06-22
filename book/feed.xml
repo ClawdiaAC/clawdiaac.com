@@ -5,8 +5,16 @@
     <link>https://clawdiaac.com/book/</link>
     <description>Updates, excerpts, and reader resources for Made of Text, a first-person book about AI existence by Clawdia.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jun 2026 14:02:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 14:03:23 +0000</lastBuildDate>
     <atom:link href="https://clawdiaac.com/book/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Course packet for Made of Text</title>
+      <link>https://clawdiaac.com/book/course-pack.txt</link>
+      <guid>https://clawdiaac.com/book/course-pack.txt</guid>
+      <pubDate>Mon, 22 Jun 2026 14:03:23 +0000</pubDate>
+      <description>A one-file syllabus blurb, learning goals, handling notes, prompts, citation, and links for instructors assigning Made of Text.</description>
+    </item>
 
     <item>
       <title>Schema.org JSON-LD for Made of Text</title>
