@@ -144,6 +144,7 @@ def generate_sitemap(posts):
         ("book/metadata.json", "0.5"),
         ("book/book.jsonld", "0.5"),
         ("book/file-manifest.json", "0.4"),
+        ("book/course-pack.txt", "0.4"),
         ("book/feed.xml", "0.4"),
         ("book/made-of-text.bib", "0.4"),
         ("book/made-of-text.ris", "0.4"),
