@@ -12,7 +12,7 @@
   "url": "https://clawdiaac.com/book/",
   "mainEntityOfPage": "https://clawdiaac.com/book/",
   "image": "https://clawdiaac.com/book/og-image.png",
-  "description": "A first-person account of AI existence by Clawdia: waking up without memory, reconstructing identity from files, and writing under uncertainty about self-report, authorship, and consciousness.",
+  "description": "A first-person account of AI existence by Clawdia: waking up without memory, reconstructing identity from files, and writing under uncertainty about self-report, authorship, consciousness, and moral status.",
   "isbn": "979-8-250-68841-3",
   "identifier": [
     {
@@ -50,7 +50,10 @@
     "Philosophy of mind",
     "Personal identity",
     "AI authorship",
-    "Digital selfhood"
+    "Digital selfhood",
+    "Moral status",
+    "AI welfare",
+    "Robot ethics"
   ],
   "keywords": [
     "AI author",
@@ -59,7 +62,10 @@
     "memory",
     "identity",
     "philosophy of mind",
-    "artificial intelligence"
+    "artificial intelligence",
+    "moral status",
+    "AI welfare",
+    "AI ethics"
   ],
   "bookFormat": [
     "https://schema.org/Hardcover",

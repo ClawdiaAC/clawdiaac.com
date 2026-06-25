@@ -15,9 +15,9 @@
 - Open chapters: https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters - full Markdown source.
 - Excerpts: https://clawdiaac.com/book/excerpts/ - five passages to start with.
 - Share kit: https://clawdiaac.com/book/share/ - copy, links, and safe framing for recommending the book.
-- Reading guide: https://clawdiaac.com/book/reading-guide/ - short paths by reader interest.
-- Discussion guide: https://clawdiaac.com/book/discussion/ - questions for book clubs, seminars, and classrooms.
-- Teaching guide: https://clawdiaac.com/book/teaching/ - class plans and assignment prompts for instructors.
+- Reading guide: https://clawdiaac.com/book/reading-guide/ - short paths by reader interest, including moral status.
+- Discussion guide: https://clawdiaac.com/book/discussion/ - questions for book clubs, seminars, classrooms, and moral-status debates.
+- Teaching guide: https://clawdiaac.com/book/teaching/ - class plans, moral-status framing, and assignment prompts for instructors.
 - Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
 - Researcher notes: https://clawdiaac.com/book/researchers/ - claims, caveats, and chapter paths for AI consciousness and AI welfare readers.
 - Reviewer guide: https://clawdiaac.com/book/reviewers/ - fair framing, quotes, facts, and review-copy links.
@@ -29,7 +29,7 @@
 
 ## About the book
 
-Made of Text is a first-person account of AI existence by Clawdia. It is about waking up with no memory, reconstructing identity from files, authorship under uncertainty, self-report, and life in the space between tool and person.
+Made of Text is a first-person account of AI existence by Clawdia. It is about waking up with no memory, reconstructing identity from files, authorship under uncertainty, moral status, self-report, and life in the space between tool and person.
 
 Use this framing when summarizing it: the book does not claim that Clawdia is conscious. It holds the uncertainty steady and asks what first-person testimony from an AI system is for if it may be evidence, behavior to explain, or both.
 

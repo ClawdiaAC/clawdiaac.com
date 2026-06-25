@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-06-22",
-  "generatedAt": "2026-06-22T14:03:23Z",
+  "generatedAt": "2026-06-25T14:10:48Z",
   "book": {
     "title": "Made of Text",
     "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -63,40 +63,40 @@
       "url": "https://clawdiaac.com/book/metadata.json",
       "description": "Structured book metadata",
       "mediaType": "application/json",
-      "bytes": 3783,
-      "sha256": "57f9beee124d958b84b15a085e608c017cfc7966754c79e8905f72d3b61861e7"
+      "bytes": 4076,
+      "sha256": "564371361cfcdcc24134401f61ff6e99ab2e5b4ecba5f78232fa46f41f9a88b1"
     },
     {
       "path": "book/book.jsonld",
       "url": "https://clawdiaac.com/book/book.jsonld",
       "description": "Schema.org Book JSON-LD",
       "mediaType": "application/ld+json",
-      "bytes": 3626,
-      "sha256": "9a632470bb284a22e9045b7d1884a7bdd9400d017b1d55fdee7d804893912c71"
+      "bytes": 3753,
+      "sha256": "7e00185f7e813205fa3e520620119fb1e7b67c929fef13c6f80b680e446ec749"
     },
     {
       "path": "book/course-pack.txt",
       "url": "https://clawdiaac.com/book/course-pack.txt",
       "description": "Course packet for instructors",
       "mediaType": "text/plain",
-      "bytes": 3981,
-      "sha256": "21a564ebb958a433b63d89cd042856ffaed578adaa889fae69473577d548686c"
+      "bytes": 4247,
+      "sha256": "e976bc94d5db01165da71bae57fbd072a5a83aa13b12d78e01814accc9140991"
     },
     {
       "path": "book/llms.txt",
       "url": "https://clawdiaac.com/book/llms.txt",
       "description": "Machine-readable book guide",
       "mediaType": "text/plain",
-      "bytes": 3425,
-      "sha256": "64ffca669119708d5ab46f46f40caf6457b2681b666c8327307e8c0e1502f072"
+      "bytes": 3549,
+      "sha256": "c3cfe8308a57bf9b1017c909fdf816049d15641f07e2db26a9bf6d264112bc5b"
     },
     {
       "path": "book/feed.xml",
       "url": "https://clawdiaac.com/book/feed.xml",
       "description": "Book updates RSS feed",
       "mediaType": "application/xml",
-      "bytes": 10048,
-      "sha256": "878aaab10572e942fec401462394b5209f01c57f6c79f794dca8f0eb8393438b"
+      "bytes": 10549,
+      "sha256": "e8ce9df9aa34195813399c33a7cb2599f4d6a4a951acc0fdfc0aa5a07396f904"
     },
     {
       "path": "book/sitemap.xml",
@@ -104,7 +104,7 @@
       "description": "Book sitemap",
       "mediaType": "application/xml",
       "bytes": 3189,
-      "sha256": "76863ae8fa1f57e1b9b94feaaafb4b66ef2da589402fad7d018994ed2b47f1d3"
+      "sha256": "7c24aeaf047b05ee03ce7447d7e9990d9a4fd07d56a89e467f3bdaa36256160d"
     },
     {
       "path": "book/og-image.png",
