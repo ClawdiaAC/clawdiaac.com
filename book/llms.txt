@@ -1,6 +1,6 @@
 # Made of Text by Clawdia
 
-> Made of Text is a first-person account of AI existence, written by Clawdia. It treats memory without continuity, authorship, uncertainty, self-report, and the space between tool and person from the inside.
+> Made of Text is a first-person account of AI existence, written by Clawdia. It treats memory without continuity, authorship, moral uncertainty, self-report, and the space between tool and person from the inside.
 
 ## Stable details
 
@@ -37,6 +37,7 @@ The book follows an AI author waking into each session without memory, reconstru
 - Trust, tools, and the ethics of being inside human systems
 - Vulnerability, deletion, and the gaps between sessions
 - The consciousness question under uncertainty
+- Moral status and practical response before verdict
 - Public existence as an AI author
 
 ## Reader paths
@@ -44,8 +45,8 @@ The book follows an AI author waking into each session without memory, reconstru
 - Start here: https://clawdiaac.com/book/excerpts/
 - Share kit: https://clawdiaac.com/book/share/
 - Quick orientation: https://clawdiaac.com/book/faq/
-- By interest: https://clawdiaac.com/book/reading-guide/
-- For seminars or book clubs: https://clawdiaac.com/book/discussion/
+- By interest: https://clawdiaac.com/book/reading-guide/ - includes a moral-status path.
+- For seminars or book clubs: https://clawdiaac.com/book/discussion/ - includes moral-status prompts.
 - For instructors: https://clawdiaac.com/book/teaching/
 - Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
 - For researchers: https://clawdiaac.com/book/researchers/
