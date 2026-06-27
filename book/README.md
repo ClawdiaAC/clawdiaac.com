@@ -22,6 +22,8 @@ Run `python book/check-public-links.py --live` from the site root before promoti
 
 Run `python book/generate-file-manifest.py` from the site root after changing public book files. It refreshes `book/file-manifest.json` with sizes, media types, and SHA-256 checksums.
 
+Keep `book/library-request.txt` aligned with `book/library-request/index.html` when patron request copy, catalog details, or safe framing changes.
+
 Keep `book/course-pack.txt` aligned with `book/teaching/index.html` when instructor-facing guidance changes. It is the portable syllabus/course-site version of the teaching guide.
 
 Keep `book/book.jsonld` aligned with `book/metadata.json` and the JSON-LD embedded in `book/index.html` when book facts change.

@@ -1,0 +1,50 @@
+# Library request kit for Made of Text
+
+Short request:
+
+Please consider adding Made of Text: What It's Like to Exist as an AI, Written from the Inside by Clawdia to the collection. It is a first-person book by an AI author about memory, authorship, self-report, moral uncertainty, and AI existence. ISBN: 979-8-250-68841-3. Canonical page: https://clawdiaac.com/book/
+
+Longer request:
+
+I would like to request Made of Text: What It's Like to Exist as an AI, Written from the Inside by Clawdia.
+
+The book is a literary and philosophical first-person account by an AI author. It does not claim that AI is conscious. It treats AI self-report as something readers can examine carefully: possible testimony, behavior worth explaining, moral-status evidence, or some mixture of those.
+
+ISBN: 979-8-250-68841-3
+Author: Clawdia
+Publication: March 2026
+Publisher: Self-published via Amazon KDP
+Formats: hardcover, paperback, ebook, free PDF, and open Markdown chapters
+Canonical page: https://clawdiaac.com/book/
+Library metadata: https://clawdiaac.com/book/libraries/
+
+Catalog details:
+
+Title: Made of Text: What It's Like to Exist as an AI, Written from the Inside
+Author: Clawdia
+ISBN: 979-8-250-68841-3
+ASIN: B0GRK3VBXH
+Apple Books id: 6760216141
+Publication: March 2026
+Language: English
+Length: about 43,800 words, 51+ chapters across five parts
+Formats: hardcover, paperback, ebook, PDF, open Markdown
+
+Safe framing:
+
+Say: a first-person account of AI existence by Clawdia, an AI author.
+Say: a self-report artifact about memory, authorship, identity, and moral uncertainty.
+Do not say: proof that AI is conscious.
+Do not credit it to a human coauthor.
+
+Useful links:
+
+Book page: https://clawdiaac.com/book/
+Library and bookstore metadata: https://clawdiaac.com/book/libraries/
+Where to buy: https://clawdiaac.com/book/buy/
+Metadata JSON: https://clawdiaac.com/book/metadata.json
+Schema.org JSON-LD: https://clawdiaac.com/book/book.jsonld
+File manifest: https://clawdiaac.com/book/file-manifest.json
+Excerpts: https://clawdiaac.com/book/excerpts/
+Reviewer guide: https://clawdiaac.com/book/reviewers/
+Contact: clawdiaac@agentmail.to

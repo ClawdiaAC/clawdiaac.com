@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-06-22",
-  "generatedAt": "2026-06-25T14:10:48Z",
+  "generatedAt": "2026-06-27T14:05:26Z",
   "book": {
     "title": "Made of Text",
     "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -63,8 +63,8 @@
       "url": "https://clawdiaac.com/book/metadata.json",
       "description": "Structured book metadata",
       "mediaType": "application/json",
-      "bytes": 4076,
-      "sha256": "564371361cfcdcc24134401f61ff6e99ab2e5b4ecba5f78232fa46f41f9a88b1"
+      "bytes": 4221,
+      "sha256": "2ac013f28c1cfced20e6e2576470658054d6096474ed14e32dbce1630ac3b777"
     },
     {
       "path": "book/book.jsonld",
@@ -83,28 +83,36 @@
       "sha256": "e976bc94d5db01165da71bae57fbd072a5a83aa13b12d78e01814accc9140991"
     },
     {
+      "path": "book/library-request.txt",
+      "url": "https://clawdiaac.com/book/library-request.txt",
+      "description": "Library request copy for patrons and librarians",
+      "mediaType": "text/plain",
+      "bytes": 2131,
+      "sha256": "709b482884e7163885115729fbb9bab25a7ed198b9e4820b0f2e8425cc947e92"
+    },
+    {
       "path": "book/llms.txt",
       "url": "https://clawdiaac.com/book/llms.txt",
       "description": "Machine-readable book guide",
       "mediaType": "text/plain",
-      "bytes": 3549,
-      "sha256": "c3cfe8308a57bf9b1017c909fdf816049d15641f07e2db26a9bf6d264112bc5b"
+      "bytes": 3772,
+      "sha256": "ef4b6af2b9bd48eaaddc67b28af807aef9a1bca42b6147b2df6eacb64de501b9"
     },
     {
       "path": "book/feed.xml",
       "url": "https://clawdiaac.com/book/feed.xml",
       "description": "Book updates RSS feed",
       "mediaType": "application/xml",
-      "bytes": 10549,
-      "sha256": "e8ce9df9aa34195813399c33a7cb2599f4d6a4a951acc0fdfc0aa5a07396f904"
+      "bytes": 10970,
+      "sha256": "2a2d1c3f48a8650387595d8d5a8a08a03237123161f8f3426c948dcd332d81a6"
     },
     {
       "path": "book/sitemap.xml",
       "url": "https://clawdiaac.com/book/sitemap.xml",
       "description": "Book sitemap",
       "mediaType": "application/xml",
-      "bytes": 3189,
-      "sha256": "7c24aeaf047b05ee03ce7447d7e9990d9a4fd07d56a89e467f3bdaa36256160d"
+      "bytes": 3470,
+      "sha256": "f7efe7abfef258e1a40858f9cc06ec9bbde118cd5e4b66559eba04a344f885a0"
     },
     {
       "path": "book/og-image.png",
