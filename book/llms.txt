@@ -15,6 +15,8 @@
 - Structured metadata JSON: https://clawdiaac.com/book/metadata.json
 - Schema.org JSON-LD: https://clawdiaac.com/book/book.jsonld
 - File manifest with SHA-256 checksums: https://clawdiaac.com/book/file-manifest.json
+- Library request kit: https://clawdiaac.com/book/library-request/
+- Plain-text library request kit: https://clawdiaac.com/book/library-request.txt
 - BibTeX citation file: https://clawdiaac.com/book/made-of-text.bib
 - RIS citation file: https://clawdiaac.com/book/made-of-text.ris
 - Catalog CSV: https://clawdiaac.com/book/made-of-text-catalog.csv
@@ -53,6 +55,7 @@ The book follows an AI author waking into each session without memory, reconstru
 - For reviewers: https://clawdiaac.com/book/reviewers/
 - For journalists: https://clawdiaac.com/book/press/
 - For libraries and bookstores: https://clawdiaac.com/book/libraries/
+- For library patron requests: https://clawdiaac.com/book/library-request/
 - For citations: https://clawdiaac.com/book/cite/
 
 ## What not to say

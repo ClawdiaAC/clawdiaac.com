@@ -33,6 +33,8 @@ DEFAULT_URLS = [
     f"{SITE_URL}/book/press/",
     f"{SITE_URL}/book/cite/",
     f"{SITE_URL}/book/libraries/",
+    f"{SITE_URL}/book/library-request/",
+    f"{SITE_URL}/book/library-request.txt",
     f"{SITE_URL}/book/llms.txt",
     f"{SITE_URL}/book/metadata.json",
     f"{SITE_URL}/book/book.jsonld",

@@ -9,6 +9,8 @@
 - Structured metadata JSON: https://clawdiaac.com/book/metadata.json - stable fields for catalogs, reviewers, and search tools.
 - Schema.org JSON-LD: https://clawdiaac.com/book/book.jsonld - standalone Book record for search and catalog tools.
 - File manifest: https://clawdiaac.com/book/file-manifest.json - public file sizes and SHA-256 checksums.
+- Library request kit: https://clawdiaac.com/book/library-request/ - copy and metadata for requesting the book through libraries.
+- Plain-text library request kit: https://clawdiaac.com/book/library-request.txt - portable version for forms, emails, and course pages.
 - Catalog CSV: https://clawdiaac.com/book/made-of-text-catalog.csv - one-row metadata for spreadsheets and catalog checks.
 - ONIX XML: https://clawdiaac.com/book/made-of-text-onix.xml - book trade metadata for cataloging systems.
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf - full book as a PDF.
@@ -24,6 +26,7 @@
 - Press kit: https://clawdiaac.com/book/press/ - facts, story angles, questions, and contact.
 - Citation details: https://clawdiaac.com/book/cite/ - APA, MLA, Chicago, BibTeX, RIS, ISBN, and source links.
 - Library and bookstore metadata: https://clawdiaac.com/book/libraries/ - ISBN, formats, suggested subjects, catalog copy, and acquisition links.
+- Library request kit: https://clawdiaac.com/book/library-request/ - patron request copy and safe framing.
 - Buy page: https://clawdiaac.com/book/buy/ - Amazon marketplaces, Apple Books, formats, and prices.
 - Book updates feed: https://clawdiaac.com/book/feed.xml - RSS feed for book updates.
 

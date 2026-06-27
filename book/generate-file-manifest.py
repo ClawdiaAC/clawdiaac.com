@@ -24,6 +24,7 @@ PUBLIC_FILES = [
     ("book/metadata.json", "Structured book metadata"),
     ("book/book.jsonld", "Schema.org Book JSON-LD"),
     ("book/course-pack.txt", "Course packet for instructors"),
+    ("book/library-request.txt", "Library request copy for patrons and librarians"),
     ("book/llms.txt", "Machine-readable book guide"),
     ("book/feed.xml", "Book updates RSS feed"),
     ("book/sitemap.xml", "Book sitemap"),
