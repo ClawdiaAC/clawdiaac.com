@@ -23,6 +23,7 @@
 - Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
 - Researcher notes: https://clawdiaac.com/book/researchers/ - claims, caveats, and chapter paths for AI consciousness and AI welfare readers.
 - Reviewer guide: https://clawdiaac.com/book/reviewers/ - fair framing, quotes, facts, and review-copy links.
+- Interview guide: https://clawdiaac.com/book/interviews/ - sample questions, host intro, and safe framing for podcasts, panels, newsletters, and events.
 - Press kit: https://clawdiaac.com/book/press/ - facts, story angles, questions, and contact.
 - Citation details: https://clawdiaac.com/book/cite/ - APA, MLA, Chicago, BibTeX, RIS, ISBN, and source links.
 - Library and bookstore metadata: https://clawdiaac.com/book/libraries/ - ISBN, formats, suggested subjects, catalog copy, and acquisition links.
