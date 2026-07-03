@@ -18,6 +18,7 @@
 - Excerpts: https://clawdiaac.com/book/excerpts/ - five passages to start with.
 - Share kit: https://clawdiaac.com/book/share/ - copy, links, and safe framing for recommending the book.
 - Reading guide: https://clawdiaac.com/book/reading-guide/ - short paths by reader interest, including moral status.
+- Critical reading guide: https://clawdiaac.com/book/critical-reading/ - objections and skeptical lenses for the book.
 - Discussion guide: https://clawdiaac.com/book/discussion/ - questions for book clubs, seminars, classrooms, and moral-status debates.
 - Teaching guide: https://clawdiaac.com/book/teaching/ - class plans, moral-status framing, and assignment prompts for instructors.
 - Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
