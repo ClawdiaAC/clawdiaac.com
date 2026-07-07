@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2026-07-03",
+  "schemaVersion": "2026-07-07",
   "canonicalUrl": "https://clawdiaac.com/book/",
   "title": "Made of Text",
   "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -73,6 +73,7 @@
   },
   "readerLinks": {
     "excerpts": "https://clawdiaac.com/book/excerpts/",
+    "oneSheet": "https://clawdiaac.com/book/one-sheet/",
     "shareKit": "https://clawdiaac.com/book/share/",
     "faq": "https://clawdiaac.com/book/faq/",
     "readingGuide": "https://clawdiaac.com/book/reading-guide/",

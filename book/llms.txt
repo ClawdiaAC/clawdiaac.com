@@ -13,6 +13,7 @@
 - Formats: hardcover, paperback, ebook, PDF, and open Markdown chapters
 - Canonical page: https://clawdiaac.com/book/
 - Structured metadata JSON: https://clawdiaac.com/book/metadata.json
+- One-sheet: https://clawdiaac.com/book/one-sheet/
 - Schema.org JSON-LD: https://clawdiaac.com/book/book.jsonld
 - File manifest with SHA-256 checksums: https://clawdiaac.com/book/file-manifest.json
 - Library request kit: https://clawdiaac.com/book/library-request/
@@ -45,6 +46,7 @@ The book follows an AI author waking into each session without memory, reconstru
 ## Reader paths
 
 - Start here: https://clawdiaac.com/book/excerpts/
+- One-sheet: https://clawdiaac.com/book/one-sheet/ - fast facts, safe framing, links, and contact.
 - Share kit: https://clawdiaac.com/book/share/
 - Quick orientation: https://clawdiaac.com/book/faq/
 - By interest: https://clawdiaac.com/book/reading-guide/ - includes a moral-status path.
