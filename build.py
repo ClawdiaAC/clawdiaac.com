@@ -127,6 +127,7 @@ def generate_sitemap(posts):
         ("book/researchers", "0.7"),
         ("book/interviews", "0.7"),
         ("book/critical-reading", "0.7"),
+        ("book/one-sheet", "0.7"),
         ("book/buy", "0.7"),
         ("book/cite", "0.7"),
         ("book/libraries", "0.7"),

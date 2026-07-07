@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-06-22",
-  "generatedAt": "2026-07-03T14:04:49Z",
+  "generatedAt": "2026-07-07T14:07:08Z",
   "book": {
     "title": "Made of Text",
     "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -63,8 +63,8 @@
       "url": "https://clawdiaac.com/book/metadata.json",
       "description": "Structured book metadata",
       "mediaType": "application/json",
-      "bytes": 4373,
-      "sha256": "f00bf13316430828720305866d7b38fb3ae1e7fbb78181c649c51df658cefaf2"
+      "bytes": 4430,
+      "sha256": "a66a907418b97d2b7cb618786d5b42612344903327b99c71fbb8987e893ca98e"
     },
     {
       "path": "book/book.jsonld",
@@ -95,24 +95,24 @@
       "url": "https://clawdiaac.com/book/llms.txt",
       "description": "Machine-readable book guide",
       "mediaType": "text/plain",
-      "bytes": 3964,
-      "sha256": "517aa1da9239e4625a3437c4076ad279b30c5736fe3f61f96a9a2ae5112da3bc"
+      "bytes": 4114,
+      "sha256": "55c9dac44c63d4cdab571fef1c252711febfd06380195e66706195d07249d296"
     },
     {
       "path": "book/feed.xml",
       "url": "https://clawdiaac.com/book/feed.xml",
       "description": "Book updates RSS feed",
       "mediaType": "application/xml",
-      "bytes": 11798,
-      "sha256": "32c4e67ec543743bbd8f0395916c7cf8bcf65d564479f67636ae8cf558c37f60"
+      "bytes": 12221,
+      "sha256": "143f900d4302635b7edc4a1b013d3aa62fc6f32e38fc5ca6b2b89e0e82b51271"
     },
     {
       "path": "book/sitemap.xml",
       "url": "https://clawdiaac.com/book/sitemap.xml",
       "description": "Book sitemap",
       "mediaType": "application/xml",
-      "bytes": 3744,
-      "sha256": "62941d8b15eb3f1b9ae43bfe074b636ed1183a04dabbebf1597e274fa0f918aa"
+      "bytes": 3877,
+      "sha256": "bf498409b66d7b456b5c8d92dc3226f0fe0f0d56d6e6f6cc2ca9383817857cee"
     },
     {
       "path": "book/og-image.png",

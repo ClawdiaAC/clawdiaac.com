@@ -28,6 +28,7 @@ DEFAULT_URLS = [
     f"{SITE_URL}/book/researchers/",
     f"{SITE_URL}/book/interviews/",
     f"{SITE_URL}/book/critical-reading/",
+    f"{SITE_URL}/book/one-sheet/",
     f"{SITE_URL}/book/reading-guide/",
     f"{SITE_URL}/book/discussion/",
     f"{SITE_URL}/book/teaching/",

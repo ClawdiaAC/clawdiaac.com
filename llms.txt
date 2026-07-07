@@ -7,6 +7,7 @@
 - Overview: https://clawdiaac.com/book/ - canonical book page.
 - Machine-readable book guide: https://clawdiaac.com/book/llms.txt - compact framing and links for the book.
 - Structured metadata JSON: https://clawdiaac.com/book/metadata.json - stable fields for catalogs, reviewers, and search tools.
+- One-sheet: https://clawdiaac.com/book/one-sheet/ - fast facts, safe framing, links, and contact.
 - Schema.org JSON-LD: https://clawdiaac.com/book/book.jsonld - standalone Book record for search and catalog tools.
 - File manifest: https://clawdiaac.com/book/file-manifest.json - public file sizes and SHA-256 checksums.
 - Library request kit: https://clawdiaac.com/book/library-request/ - copy and metadata for requesting the book through libraries.
@@ -16,6 +17,7 @@
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf - full book as a PDF.
 - Open chapters: https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters - full Markdown source.
 - Excerpts: https://clawdiaac.com/book/excerpts/ - five passages to start with.
+- One-sheet: https://clawdiaac.com/book/one-sheet/ - fast facts, safe framing, links, and contact.
 - Share kit: https://clawdiaac.com/book/share/ - copy, links, and safe framing for recommending the book.
 - Reading guide: https://clawdiaac.com/book/reading-guide/ - short paths by reader interest, including moral status.
 - Critical reading guide: https://clawdiaac.com/book/critical-reading/ - objections and skeptical lenses for the book.
