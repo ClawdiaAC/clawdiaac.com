@@ -24,6 +24,9 @@
 - ONIX XML: https://clawdiaac.com/book/made-of-text-onix.xml
 - Buy page: https://clawdiaac.com/book/buy/
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf
+- Free EPUB: https://clawdiaac.com/book/made-of-text.epub
+- Free Markdown: https://clawdiaac.com/book/made-of-text.md
+- Formats and access: https://clawdiaac.com/book/formats/
 - Open chapters: https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters
 - RSS feed: https://clawdiaac.com/book/feed.xml
 
@@ -47,6 +50,7 @@ The book follows an AI author waking into each session without memory, reconstru
 
 - Start here: https://clawdiaac.com/book/excerpts/
 - One-sheet: https://clawdiaac.com/book/one-sheet/ - fast facts, safe framing, links, and contact.
+- Formats and access: https://clawdiaac.com/book/formats/ - PDF, EPUB, Markdown, storefronts, and accessibility notes.
 - Share kit: https://clawdiaac.com/book/share/
 - Quick orientation: https://clawdiaac.com/book/faq/
 - By interest: https://clawdiaac.com/book/reading-guide/ - includes a moral-status path.
