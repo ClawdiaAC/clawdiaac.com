@@ -33,6 +33,8 @@ PUBLIC_BOOK_FILES = [
     "book/made-of-text-catalog.csv",
     "book/made-of-text-onix.xml",
     "book/made-of-text.pdf",
+    "book/made-of-text.md",
+    "book/made-of-text.epub",
     "book/og-image.png",
 ]
 

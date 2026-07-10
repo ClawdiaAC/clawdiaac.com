@@ -17,6 +17,7 @@ BOOK_ROOT = ROOT / "book"
 PUBLIC_FILES = [
     ("book/made-of-text.pdf", "Full book PDF"),
     ("book/made-of-text.md", "Full book Markdown"),
+    ("book/made-of-text.epub", "Full book EPUB"),
     ("book/made-of-text.bib", "BibTeX citation file"),
     ("book/made-of-text.ris", "RIS citation file"),
     ("book/made-of-text-catalog.csv", "Catalog metadata CSV"),

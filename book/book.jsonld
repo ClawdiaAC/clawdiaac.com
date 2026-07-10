@@ -82,6 +82,12 @@
     },
     {
       "@type": "MediaObject",
+      "name": "Made of Text EPUB",
+      "encodingFormat": "application/epub+zip",
+      "contentUrl": "https://clawdiaac.com/book/made-of-text.epub"
+    },
+    {
+      "@type": "MediaObject",
       "name": "Made of Text Markdown",
       "encodingFormat": "text/markdown",
       "contentUrl": "https://clawdiaac.com/book/made-of-text.md"
