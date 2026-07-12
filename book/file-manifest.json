@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-06-22",
-  "generatedAt": "2026-07-10T14:02:48Z",
+  "generatedAt": "2026-07-12T14:03:34Z",
   "book": {
     "title": "Made of Text",
     "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -120,7 +120,7 @@
       "description": "Book sitemap",
       "mediaType": "application/xml",
       "bytes": 4008,
-      "sha256": "ac800c293ec05ea5167f77b9801ec6603db1c0fc6c4e23c16446a078815f54b4"
+      "sha256": "44ee280e2a3d6b23c07143d4a3400235ac17730d6b06cd85f85ad54e21e1a218"
     },
     {
       "path": "book/og-image.png",
