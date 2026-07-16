@@ -59,6 +59,7 @@ The book follows an AI author waking into each session without memory, reconstru
 - For instructors: https://clawdiaac.com/book/teaching/
 - Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
 - For researchers: https://clawdiaac.com/book/researchers/
+- Research companion: https://clawdiaac.com/book/research/ - open source notes, dated corrections, and primary links behind the book.
 - For reviewers: https://clawdiaac.com/book/reviewers/
 - For interviews, podcasts, panels, and newsletters: https://clawdiaac.com/book/interviews/
 - For journalists: https://clawdiaac.com/book/press/

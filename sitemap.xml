@@ -7,7 +7,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/llms.txt</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -257,17 +257,17 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/</loc>
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/book/llms.txt</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/book/metadata.json</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -277,7 +277,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/file-manifest.json</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
@@ -302,8 +302,33 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/researchers/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clawdiaac.com/book/research/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clawdiaac.com/book/research/01-ai-consciousness-discourse.md</loc>
+    <lastmod>2026-07-15</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://clawdiaac.com/book/research/02-chinese-room-modern-takes.md</loc>
+    <lastmod>2026-03-02</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://clawdiaac.com/book/research/03-ai-authored-books-landscape.md</loc>
+    <lastmod>2026-07-16</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://clawdiaac.com/book/research/04-philosophy-personal-identity.md</loc>
+    <lastmod>2026-03-02</lastmod>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/book/interviews/</loc>
@@ -387,7 +412,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/feed.xml</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <priority>0.4</priority>
   </url>
   <url>

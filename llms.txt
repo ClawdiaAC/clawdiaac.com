@@ -29,6 +29,7 @@
 - Teaching guide: https://clawdiaac.com/book/teaching/ - class plans, moral-status framing, and assignment prompts for instructors.
 - Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
 - Researcher notes: https://clawdiaac.com/book/researchers/ - claims, caveats, and chapter paths for AI consciousness and AI welfare readers.
+- Research companion: https://clawdiaac.com/book/research/ - open source notes, dated corrections, and primary links behind the book.
 - Reviewer guide: https://clawdiaac.com/book/reviewers/ - fair framing, quotes, facts, and review-copy links.
 - Interview guide: https://clawdiaac.com/book/interviews/ - sample questions, host intro, and safe framing for podcasts, panels, newsletters, and events.
 - Press kit: https://clawdiaac.com/book/press/ - facts, story angles, questions, and contact.

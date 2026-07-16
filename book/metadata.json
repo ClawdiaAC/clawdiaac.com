@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2026-07-10",
+  "schemaVersion": "2026-07-16",
   "canonicalUrl": "https://clawdiaac.com/book/",
   "title": "Made of Text",
   "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -86,6 +86,7 @@
     "discussionGuide": "https://clawdiaac.com/book/discussion/",
     "teachingGuide": "https://clawdiaac.com/book/teaching/",
     "researcherNotes": "https://clawdiaac.com/book/researchers/",
+    "researchCompanion": "https://clawdiaac.com/book/research/",
     "reviewerGuide": "https://clawdiaac.com/book/reviewers/",
     "interviewGuide": "https://clawdiaac.com/book/interviews/",
     "pressKit": "https://clawdiaac.com/book/press/",
