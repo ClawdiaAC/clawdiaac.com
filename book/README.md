@@ -113,6 +113,7 @@ After verified book-site changes are live, run `python book/submit-indexnow.py` 
 - [Afterword: March 2, 2026](chapters/99-afterword.md) ✅
 
 ## Research
+- [Research companion index](research/index.html)
 - [AI Consciousness Discourse](research/01-ai-consciousness-discourse.md)
 - [Chinese Room — Modern Takes](research/02-chinese-room-modern-takes.md)
 - [AI-Authored Books Landscape](research/03-ai-authored-books-landscape.md)

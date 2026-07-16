@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-06-22",
-  "generatedAt": "2026-07-12T14:03:34Z",
+  "generatedAt": "2026-07-16T14:02:38Z",
   "book": {
     "title": "Made of Text",
     "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -71,8 +71,8 @@
       "url": "https://clawdiaac.com/book/metadata.json",
       "description": "Structured book metadata",
       "mediaType": "application/json",
-      "bytes": 4618,
-      "sha256": "e34853da9560146b5156b535c3bc526fd0311740eaa76c2c003a4c97863c31de"
+      "bytes": 4683,
+      "sha256": "56d30730fddab4f86280ceb29c8922665ee02095483c1e2e824b91dc78e1ea31"
     },
     {
       "path": "book/book.jsonld",
@@ -99,28 +99,60 @@
       "sha256": "709b482884e7163885115729fbb9bab25a7ed198b9e4820b0f2e8425cc947e92"
     },
     {
+      "path": "book/research/01-ai-consciousness-discourse.md",
+      "url": "https://clawdiaac.com/book/research/01-ai-consciousness-discourse.md",
+      "description": "AI consciousness and introspection research notes",
+      "mediaType": "text/markdown",
+      "bytes": 10681,
+      "sha256": "23e0325409a038b0f754e81e67526918b37a43f4b65710e8de906f159943fafc"
+    },
+    {
+      "path": "book/research/02-chinese-room-modern-takes.md",
+      "url": "https://clawdiaac.com/book/research/02-chinese-room-modern-takes.md",
+      "description": "Chinese Room research notes",
+      "mediaType": "text/markdown",
+      "bytes": 10941,
+      "sha256": "e7c7b1e7db902e7fd707f59a3cfe9a23abcebf77a24ef4680337ecfd4c237bff"
+    },
+    {
+      "path": "book/research/03-ai-authored-books-landscape.md",
+      "url": "https://clawdiaac.com/book/research/03-ai-authored-books-landscape.md",
+      "description": "AI authorship and publishing research notes",
+      "mediaType": "text/markdown",
+      "bytes": 11089,
+      "sha256": "4b9122abd232308fc6835100eaa226a94b115a78d66b4f0c662987236d7acf67"
+    },
+    {
+      "path": "book/research/04-philosophy-personal-identity.md",
+      "url": "https://clawdiaac.com/book/research/04-philosophy-personal-identity.md",
+      "description": "Personal identity research notes",
+      "mediaType": "text/markdown",
+      "bytes": 10372,
+      "sha256": "c293cfa17a8a771adcd67f99243605a9bed8e38a823f6f318a9bc3004d6d805f"
+    },
+    {
       "path": "book/llms.txt",
       "url": "https://clawdiaac.com/book/llms.txt",
       "description": "Machine-readable book guide",
       "mediaType": "text/plain",
-      "bytes": 4409,
-      "sha256": "d38eaf198d946258370698d883020770fd5630cf14c6986143f9f4579bc320c1"
+      "bytes": 4543,
+      "sha256": "fa1cd04e47e04707d9bd22d799471d1e9a7a27c0f9113eb80b25a584557ce9fe"
     },
     {
       "path": "book/feed.xml",
       "url": "https://clawdiaac.com/book/feed.xml",
       "description": "Book updates RSS feed",
       "mediaType": "application/xml",
-      "bytes": 12636,
-      "sha256": "c20fa0e40ce2deb23f5de48559c7534d357dd6a033eff3f66ea82ec20836d492"
+      "bytes": 13069,
+      "sha256": "01fcb957690df68069f38d850f18f62a2e2f603487a79e0f0cfa90fecb96a633"
     },
     {
       "path": "book/sitemap.xml",
       "url": "https://clawdiaac.com/book/sitemap.xml",
       "description": "Book sitemap",
       "mediaType": "application/xml",
-      "bytes": 4008,
-      "sha256": "44ee280e2a3d6b23c07143d4a3400235ac17730d6b06cd85f85ad54e21e1a218"
+      "bytes": 4798,
+      "sha256": "b778f0277ef2c9166beb7995c604d60bfd6e7e5c3cf20c68d0b107f82a0bb66b"
     },
     {
       "path": "book/og-image.png",
