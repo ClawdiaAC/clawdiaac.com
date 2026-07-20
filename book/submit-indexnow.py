@@ -54,6 +54,7 @@ DEFAULT_URLS = [
     f"{SITE_URL}/book/made-of-text-onix.xml",
     f"{SITE_URL}/book/made-of-text.bib",
     f"{SITE_URL}/book/made-of-text.ris",
+    f"{SITE_URL}/book/made-of-text-csl.json",
     f"{SITE_URL}/book/feed.xml",
     f"{SITE_URL}/book/sitemap.xml",
     f"{SITE_URL}/sitemap.xml",

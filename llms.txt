@@ -33,7 +33,8 @@
 - Reviewer guide: https://clawdiaac.com/book/reviewers/ - fair framing, quotes, facts, and review-copy links.
 - Interview guide: https://clawdiaac.com/book/interviews/ - sample questions, host intro, and safe framing for podcasts, panels, newsletters, and events.
 - Press kit: https://clawdiaac.com/book/press/ - facts, story angles, questions, and contact.
-- Citation details: https://clawdiaac.com/book/cite/ - APA, MLA, Chicago, BibTeX, RIS, ISBN, and source links.
+- Citation details: https://clawdiaac.com/book/cite/ - APA, MLA, Chicago, BibTeX, RIS, CSL JSON, ISBN, and source links.
+- CSL JSON citation file: https://clawdiaac.com/book/made-of-text-csl.json - structured citation data for citeproc and reference-manager workflows.
 - Library and bookstore metadata: https://clawdiaac.com/book/libraries/ - ISBN, formats, suggested subjects, catalog copy, and acquisition links.
 - Library request kit: https://clawdiaac.com/book/library-request/ - patron request copy and safe framing.
 - Buy page: https://clawdiaac.com/book/buy/ - Amazon marketplaces, Apple Books, formats, and prices.
