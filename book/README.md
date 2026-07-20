@@ -30,6 +30,8 @@ Keep `book/course-pack.txt` aligned with `book/teaching/index.html` when instruc
 
 Keep `book/book.jsonld` aligned with `book/metadata.json` and the JSON-LD embedded in `book/index.html` when book facts change.
 
+Keep `book/made-of-text-csl.json`, `book/made-of-text.bib`, and `book/made-of-text.ris` aligned when citation details change.
+
 After verified book-site changes are live, run `python book/submit-indexnow.py` from the site root to notify IndexNow endpoints about the canonical book pages, metadata files, feeds, and sitemaps. The public verification file lives at `https://clawdiaac.com/c80bf7bc2740dc1e9974335058c2dc5f.txt`.
 
 ## Table of Contents

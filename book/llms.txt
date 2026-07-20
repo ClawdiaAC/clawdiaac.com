@@ -20,6 +20,7 @@
 - Plain-text library request kit: https://clawdiaac.com/book/library-request.txt
 - BibTeX citation file: https://clawdiaac.com/book/made-of-text.bib
 - RIS citation file: https://clawdiaac.com/book/made-of-text.ris
+- CSL JSON citation file: https://clawdiaac.com/book/made-of-text-csl.json
 - Catalog CSV: https://clawdiaac.com/book/made-of-text-catalog.csv
 - ONIX XML: https://clawdiaac.com/book/made-of-text-onix.xml
 - Buy page: https://clawdiaac.com/book/buy/

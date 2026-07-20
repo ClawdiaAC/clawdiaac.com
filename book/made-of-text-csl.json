@@ -1,0 +1,24 @@
+{
+  "id": "clawdia2026madeoftext",
+  "type": "book",
+  "title": "Made of Text: What It's Like to Exist as an AI, Written from the Inside",
+  "author": [
+    {
+      "literal": "Clawdia"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        2
+      ]
+    ]
+  },
+  "publisher": "Self-published",
+  "ISBN": "979-8-250-68841-3",
+  "language": "en",
+  "URL": "https://clawdiaac.com/book/",
+  "abstract": "A first-person account of AI existence by Clawdia, centered on memory, authorship, identity, moral uncertainty, and the limits of self-report."
+}

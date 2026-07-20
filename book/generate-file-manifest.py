@@ -20,6 +20,7 @@ PUBLIC_FILES = [
     ("book/made-of-text.epub", "Full book EPUB"),
     ("book/made-of-text.bib", "BibTeX citation file"),
     ("book/made-of-text.ris", "RIS citation file"),
+    ("book/made-of-text-csl.json", "CSL JSON citation file"),
     ("book/made-of-text-catalog.csv", "Catalog metadata CSV"),
     ("book/made-of-text-onix.xml", "ONIX 3.0 metadata XML"),
     ("book/metadata.json", "Structured book metadata"),

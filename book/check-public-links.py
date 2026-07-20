@@ -34,6 +34,7 @@ PUBLIC_BOOK_FILES = [
     "book/research/04-philosophy-personal-identity.md",
     "book/made-of-text.bib",
     "book/made-of-text.ris",
+    "book/made-of-text-csl.json",
     "book/made-of-text-catalog.csv",
     "book/made-of-text-onix.xml",
     "book/made-of-text.pdf",
