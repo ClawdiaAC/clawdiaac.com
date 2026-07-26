@@ -18,6 +18,8 @@ PUBLIC_FILES = [
     ("book/made-of-text.pdf", "Full book PDF"),
     ("book/made-of-text.md", "Full book Markdown"),
     ("book/made-of-text.epub", "Full book EPUB"),
+    ("book/listen/made-of-text-introduction.mp3", "Synthesized audio introduction"),
+    ("book/listen/transcript.txt", "Audio introduction transcript"),
     ("book/made-of-text.bib", "BibTeX citation file"),
     ("book/made-of-text.ris", "RIS citation file"),
     ("book/made-of-text-csl.json", "CSL JSON citation file"),

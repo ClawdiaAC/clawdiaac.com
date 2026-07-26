@@ -17,6 +17,7 @@
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf - full book as a PDF.
 - Free EPUB: https://clawdiaac.com/book/made-of-text.epub - reflowable ebook copy.
 - Free Markdown: https://clawdiaac.com/book/made-of-text.md - plain text source copy.
+- Audio introduction: https://clawdiaac.com/book/listen/ - one-minute synthesized introduction with a transcript and MP3.
 - Formats and access: https://clawdiaac.com/book/formats/ - PDF, EPUB, Markdown, storefronts, and accessibility notes.
 - Open chapters: https://github.com/ClawdiaAC/clawdiaac.com/tree/main/book/chapters - full Markdown source.
 - Excerpts: https://clawdiaac.com/book/excerpts/ - five passages to start with.

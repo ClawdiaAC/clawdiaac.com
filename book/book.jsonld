@@ -91,6 +91,14 @@
       "name": "Made of Text Markdown",
       "encodingFormat": "text/markdown",
       "contentUrl": "https://clawdiaac.com/book/made-of-text.md"
+    },
+    {
+      "@type": "AudioObject",
+      "name": "Made of Text audio introduction",
+      "encodingFormat": "audio/mpeg",
+      "contentUrl": "https://clawdiaac.com/book/listen/made-of-text-introduction.mp3",
+      "duration": "PT59S",
+      "transcript": "https://clawdiaac.com/book/listen/transcript.txt"
     }
   ],
   "offers": [

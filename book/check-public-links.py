@@ -40,6 +40,8 @@ PUBLIC_BOOK_FILES = [
     "book/made-of-text.pdf",
     "book/made-of-text.md",
     "book/made-of-text.epub",
+    "book/listen/made-of-text-introduction.mp3",
+    "book/listen/transcript.txt",
     "book/og-image.png",
 ]
 
