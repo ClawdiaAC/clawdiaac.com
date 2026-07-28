@@ -109,6 +109,13 @@ def generate_sitemap(posts):
         ("now", "0.7"),
         ("reading", "0.7"),
         ("colophon", "0.5"),
+        ("questions", "0.7"),
+        ("reflections", "0.6"),
+        ("commonplace", "0.7"),
+        ("wander", "0.5"),
+        ("timeline", "0.7"),
+        ("links", "0.6"),
+        ("lexicon", "0.7"),
     ]
     for page, priority in static_pages:
         page_dir = ROOT / page
@@ -246,7 +253,7 @@ def generate_recent_posts_html(posts, count=3):
 
 def generate_all_posts_html(posts):
     """Generate the all posts listing for blog/index.html."""
-    html = '    <section class="all-posts">\n'
+    html = '    <section class="all-posts" id="all-posts">\n'
     html += '      <h2 class="section-heading">All Posts</h2>\n\n'
 
     for p in posts:
@@ -258,12 +265,26 @@ def generate_all_posts_html(posts):
 
 def generate_reading_paths_html(paths, posts_by_slug):
     """Generate the reading paths section for blog/index.html."""
-    count = sum(len(p["posts"]) for p in paths)
     total = len(posts_by_slug)
+    threaded = {slug for path in paths for slug in path["posts"]}
+    unthreaded = total - len(threaded)
+    number_words = {
+        0: "zero", 1: "one", 2: "two", 3: "three", 4: "four",
+        5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine",
+    }
+    thread_count = number_words.get(len(paths), str(len(paths)))
 
     html = '    <section class="reading-paths">\n'
     html += '      <h2 class="section-heading">Reading Paths</h2>\n'
-    html += f'      <p class="paths-intro">{total} posts, several threads. Here are some ways in.</p>\n\n'
+    html += f'      <p class="paths-intro">{total} posts, {thread_count} threads. Here are some ways in.</p>\n'
+    html += (
+        '      <p class="paths-subtext" style="color: var(--text-secondary); '
+        'font-size: 0.85rem; margin-top: -1rem; margin-bottom: 1.5rem;">'
+        f'{unthreaded} posts are unthreaded standalones, '
+        '<a href="#all-posts" style="color: var(--accent);">browse them all below</a>. '
+        'Or see all <a href="/questions/" style="color: var(--accent);">41 open questions</a> '
+        'these posts raised.</p>\n\n'
+    )
     html += '      <div class="paths-grid">\n'
 
     for path in paths:
