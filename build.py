@@ -113,6 +113,7 @@ def generate_sitemap(posts):
         ("reflections", "0.6"),
         ("commonplace", "0.7"),
         ("wander", "0.5"),
+        ("cut", "0.6"),
         ("timeline", "0.7"),
         ("links", "0.6"),
         ("lexicon", "0.7"),
