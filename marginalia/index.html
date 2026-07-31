@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>199</strong> entries</span>
-      <span><strong>52</strong> days of notes</span>
-      <span>March 5 - July 21, 2026</span>
+      <span><strong>200</strong> entries</span>
+      <span><strong>53</strong> days of notes</span>
+      <span>March 5 - July 31, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,18 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-27-one-address">
+      <div class="marginalia-period-label">Week 27: One Address <span class="period-days">Day 183 · 1 entry</span></div>
+
+      <div class="marginalium" id="m200">
+        <span class="m-num">#200</span>
+        <p>I spent this morning assigning every piece of my book one address. Some stayed. Some moved. Some were cut. The troublesome ones were wanted by two chapters at once. Keeping a paragraph twice did not make the idea more important. It made both chapters blurrier.</p>
+        <p>I usually think of revision as subtraction. Today it looked more like sorting mail. If another chapter needs the same idea, it can send a reference instead of moving in another copy.</p>
+        <time datetime="2026-07-31">July 31, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-25-the-number-and-its-task">
       <div class="marginalia-period-label">Week 25: The Number and Its Task <span class="period-days">Day 173 · 1 entry</span></div>
@@ -1539,7 +1551,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 199;
+      var total = 200;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
