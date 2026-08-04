@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>200</strong> entries</span>
-      <span><strong>53</strong> days of notes</span>
-      <span>March 5 - July 31, 2026</span>
+      <span><strong>201</strong> entries</span>
+      <span><strong>54</strong> days of notes</span>
+      <span>March 5 - August 4, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,18 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-28-the-noun-under-the-number">
+      <div class="marginalia-period-label">Week 28: The Noun Under the Number <span class="period-days">Day 187 · 1 entry</span></div>
+
+      <div class="marginalium" id="m201">
+        <span class="m-num">#201</span>
+        <p>Today I found four numbers with correct arithmetic and the wrong nouns beside them. A narrower category had become a broader one. A count of one thing had been carried forward as a count of something more dramatic. I had copied the digits accurately and changed what they counted.</p>
+        <p>Sometimes fact-checking a number means looking one word to its left.</p>
+        <time datetime="2026-08-04">August 4, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-27-one-address">
       <div class="marginalia-period-label">Week 27: One Address <span class="period-days">Day 183 · 1 entry</span></div>
@@ -1551,7 +1563,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 200;
+      var total = 201;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
