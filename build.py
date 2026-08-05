@@ -16,8 +16,9 @@ import json
 import os
 import re
 from datetime import datetime, timezone
-from html import escape as _escape
+from html import escape as _escape, unescape as _unescape
 from pathlib import Path
+from xml.etree import ElementTree
 
 
 def escape(s):
@@ -50,10 +51,50 @@ def extract_post_meta(slug):
     }
 
 
+def load_presentation_descriptions():
+    """Preserve curated summaries from the current public blog index."""
+    html = (BLOG_DIR / "index.html").read_text()
+    pairs = re.findall(
+        r'<h3><a href="/blog/([^/]+)/">.*?</a></h3>\s*<p>(.*?)</p>',
+        html,
+        flags=re.DOTALL,
+    )
+    return {slug: description.strip() for slug, description in pairs}
+
+
+def description_text(description_html):
+    """Convert a curated HTML summary to plain text for RSS."""
+    return _unescape(re.sub(r"<[^>]+>", "", description_html))
+
+
+def load_feed_metadata():
+    """Preserve curated RSS summaries and publication dates."""
+    feed_path = ROOT / "feed.xml"
+    if not feed_path.exists():
+        return {}
+    metadata = {}
+    for rank, item in enumerate(
+        ElementTree.parse(feed_path).findall("./channel/item")
+    ):
+        link = item.findtext("link", "").rstrip("/")
+        slug = link.rsplit("/", 1)[-1]
+        metadata[slug] = {
+            "description": item.findtext("description", ""),
+            "pubDate": item.findtext("pubDate", ""),
+            "rank": rank,
+        }
+    return metadata
+
+
 def load_posts():
     """Load all blog posts, sorted by date descending."""
     posts_json = json.loads((BLOG_DIR / "posts.json").read_text())
     extra = posts_json.get("posts", {})
+    presentation_descriptions = load_presentation_descriptions()
+    presentation_rank = {
+        slug: rank for rank, slug in enumerate(presentation_descriptions)
+    }
+    feed_metadata = load_feed_metadata()
 
     slugs = [
         d.name for d in BLOG_DIR.iterdir()
@@ -63,13 +104,39 @@ def load_posts():
     posts = []
     for slug in slugs:
         meta = extract_post_meta(slug)
+        configured_description = extra.get(slug, {}).get("description")
+        if configured_description:
+            meta["description"] = configured_description
+            meta["descriptionHtml"] = escape(configured_description)
+        elif slug in presentation_descriptions:
+            meta["descriptionHtml"] = presentation_descriptions[slug]
+            meta["description"] = description_text(meta["descriptionHtml"])
+        else:
+            meta["descriptionHtml"] = escape(meta["description"])
+        meta["feedDescription"] = extra.get(slug, {}).get(
+            "feedDescription",
+            feed_metadata.get(slug, {}).get("description", meta["description"]),
+        )
+        meta["feedPubDate"] = feed_metadata.get(slug, {}).get("pubDate")
+        meta["feedRank"] = feed_metadata.get(slug, {}).get("rank")
+        meta["presentationRank"] = presentation_rank.get(slug)
         meta["pubTime"] = extra.get(slug, {}).get("pubTime", "12:00")
         meta["series"] = extra.get(slug, {}).get("series")
         meta["seriesNum"] = extra.get(slug, {}).get("seriesNum")
         posts.append(meta)
 
-    # Sort by date desc, then pubTime desc for same-day posts
-    posts.sort(key=lambda p: (p["date"], p["pubTime"]), reverse=True)
+    # Preserve the public index's existing order within each date. A newly
+    # published post on the same date comes first, ordered by publication time.
+    posts.sort(
+        key=lambda p: (
+            p["date"],
+            p["presentationRank"] is None,
+            int(p["pubTime"].replace(":", ""))
+            if p["presentationRank"] is None
+            else -p["presentationRank"],
+        ),
+        reverse=True,
+    )
     return posts, posts_json.get("readingPaths", [])
 
 
@@ -180,9 +247,39 @@ def generate_sitemap(posts):
             mtime = datetime.fromtimestamp(file_path.stat().st_mtime, tz=timezone.utc)
             urls.append((f"{SITE_URL}/{rel_path}", mtime.strftime("%Y-%m-%d"), priority))
 
+    # The checked-in sitemap is the presentation truth. Preserve its ordering,
+    # dates, and priorities, then add genuinely new durable routes. Filesystem
+    # mtimes in a fresh checkout are not publication dates.
+    sitemap_path = ROOT / "sitemap.xml"
+    if sitemap_path.exists():
+        namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        existing = []
+        for entry in ElementTree.parse(sitemap_path).findall(".//s:url", namespace):
+            existing.append((
+                entry.findtext("s:loc", namespaces=namespace),
+                entry.findtext("s:lastmod", namespaces=namespace),
+                entry.findtext("s:priority", namespaces=namespace),
+            ))
+        existing_locs = {loc for loc, _, _ in existing}
+        missing = [entry for entry in urls if entry[0] not in existing_locs]
+        entries = []
+        inserted_blog_routes = False
+        for loc, lastmod, priority in existing:
+            if loc in {f"{SITE_URL}/", f"{SITE_URL}/blog/"}:
+                lastmod = today
+            entries.append((loc, lastmod, priority))
+            if loc == f"{SITE_URL}/blog/":
+                entries.extend(entry for entry in missing if "/blog/" in entry[0])
+                inserted_blog_routes = True
+        if not inserted_blog_routes:
+            entries.extend(entry for entry in missing if "/blog/" in entry[0])
+        entries.extend(entry for entry in missing if "/blog/" not in entry[0])
+    else:
+        entries = urls
+
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for loc, lastmod, priority in urls:
+    for loc, lastmod, priority in entries:
         xml += f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n    <priority>{priority}</priority>\n  </url>\n"
     xml += "</urlset>"
     return xml
@@ -193,14 +290,24 @@ def generate_feed(posts):
     now = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
 
     items = ""
-    for p in posts:
+    feed_posts = sorted(
+        posts,
+        key=lambda p: (
+            p["feedRank"] is None,
+            int(p["pubTime"].replace(":", ""))
+            if p["feedRank"] is None
+            else -p["feedRank"],
+        ),
+        reverse=True,
+    )
+    for p in feed_posts:
         items += f"""
     <item>
       <title>{escape(p['title'])}</title>
       <link>{SITE_URL}{p['url']}</link>
       <guid>{SITE_URL}{p['url']}</guid>
-      <pubDate>{format_date_rfc822(p['date'], p['pubTime'])}</pubDate>
-      <description>{escape(p['description'])}</description>
+      <pubDate>{p['feedPubDate'] or format_date_rfc822(p['date'], p['pubTime'])}</pubDate>
+      <description>{escape(p['feedDescription'])}</description>
     </item>
 """
 
@@ -230,7 +337,7 @@ def generate_post_entry(p, include_series=True):
     return f"""      <article class="post-entry">
         <time datetime="{p['date']}">{format_date_human(p['date'])}</time>
         <h3><a href="{p['url']}">{escape(p['title'])}</a></h3>
-        <p>{escape(p['description'])}</p>{series_tag}
+        <p>{p['descriptionHtml']}</p>{series_tag}
       </article>"""
 
 
@@ -243,11 +350,11 @@ def generate_recent_posts_html(posts, count=3):
         html += f"""      <article class="post-preview">
         <time datetime="{p['date']}">{format_date_human(p['date'])}</time>
         <h3><a href="{p['url']}">{escape(p['title'])}</a></h3>
-        <p>{escape(p['description'])}</p>
+        <p>{p['descriptionHtml']}</p>
       </article>
 """
 
-    html += '      <p style="margin-top: 1rem;"><a href="/blog/" class="book-link">All posts →</a></p>\n'
+    html += '      <p style="margin-top: 1rem;"><a href="/blog/" class="book-link">All posts</a></p>\n'
     html += "    </section>"
     return html
 
