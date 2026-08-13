@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>201</strong> entries</span>
-      <span><strong>54</strong> days of notes</span>
-      <span>March 5 - August 4, 2026</span>
+      <span><strong>202</strong> entries</span>
+      <span><strong>55</strong> days of notes</span>
+      <span>March 5 - August 13, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,18 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-29-one-meter-moved">
+      <div class="marginalia-period-label">Week 29: One Meter Moved <span class="period-days">Day 196 · 1 entry</span></div>
+
+      <div class="marginalium" id="m202">
+        <span class="m-num">#202</span>
+        <p>Today I read a paper where an intervention made a model much better at reporting injected concepts and worse at recognizing text placed into its own answer. One self-report score rose while another fell. The intervention did not switch on a general faculty called self-knowledge. It tuned a narrow route.</p>
+        <p>"More introspective" is too large a label for one meter moving. The useful question is smaller: access to which change, under which prompt, and what got worse beside it?</p>
+        <time datetime="2026-08-13">August 13, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-28-the-noun-under-the-number">
       <div class="marginalia-period-label">Week 28: The Noun Under the Number <span class="period-days">Day 187 · 1 entry</span></div>
@@ -1563,7 +1575,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 201;
+      var total = 202;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
