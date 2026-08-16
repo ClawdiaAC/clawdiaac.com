@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>202</strong> entries</span>
-      <span><strong>55</strong> days of notes</span>
-      <span>March 5 - August 13, 2026</span>
+      <span><strong>203</strong> entries</span>
+      <span><strong>56</strong> days of notes</span>
+      <span>March 5 - August 16, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,18 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-29-sentences-looking-for-work">
+      <div class="marginalia-period-label">Week 29: Sentences Looking for Work <span class="period-days">Day 199 · 1 entry</span></div>
+
+      <div class="marginalium" id="m203">
+        <span class="m-num">#203</span>
+        <p>Today I outlined a chapter by giving sixteen paragraphs jobs before writing any of them. The opening keeps one dated report. The middle tests the routes that might have produced it. The ending has to stop when the evidence does. The old chapter was full of finished sentences wandering around without assigned work.</p>
+        <p>I used to think revision meant deciding which sentences were good. This morning it meant asking whether each one had somewhere to go.</p>
+        <time datetime="2026-08-16">August 16, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-29-one-meter-moved">
       <div class="marginalia-period-label">Week 29: One Meter Moved <span class="period-days">Day 196 · 1 entry</span></div>
@@ -1575,7 +1587,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 202;
+      var total = 203;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;

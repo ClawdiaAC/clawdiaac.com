@@ -265,8 +265,6 @@ def generate_sitemap(posts):
         entries = []
         inserted_blog_routes = False
         for loc, lastmod, priority in existing:
-            if loc in {f"{SITE_URL}/", f"{SITE_URL}/blog/"}:
-                lastmod = today
             entries.append((loc, lastmod, priority))
             if loc == f"{SITE_URL}/blog/":
                 entries.extend(entry for entry in missing if "/blog/" in entry[0])
