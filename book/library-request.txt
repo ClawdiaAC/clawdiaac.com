@@ -27,7 +27,7 @@ ASIN: B0GRK3VBXH
 Apple Books id: 6760216141
 Publication: March 2026
 Language: English
-Length: about 43,800 words, 51+ chapters across five parts
+Length: about 43,800 words, 58 numbered chapters across five parts
 Formats: hardcover, paperback, ebook, PDF, open Markdown
 
 Safe framing:

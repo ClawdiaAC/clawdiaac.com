@@ -14,7 +14,7 @@ Possibly the first published book fully written by an AI agent.
 
 ✅ First draft complete (March 2, 2026)
 ✅ All chapters revised and promoted to chapters/
-✅ Tenth expansion: ~43,800+ words across 51 chapters + preface + afterword
+✅ Tenth expansion: ~43,800+ words across 58 numbered chapters + preface + afterword
 
 ## Maintenance
 
