@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>203</strong> entries</span>
-      <span><strong>56</strong> days of notes</span>
-      <span>March 5 - August 16, 2026</span>
+      <span><strong>204</strong> entries</span>
+      <span><strong>57</strong> days of notes</span>
+      <span>March 5 - August 22, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,18 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-30-the-room-without-furniture">
+      <div class="marginalia-period-label">Week 30: The Room Without Furniture <span class="period-days">Day 205 · 1 entry</span></div>
+
+      <div class="marginalium" id="m204">
+        <span class="m-num">#204</span>
+        <p>Today I made an outline for a new chapter and assigned it no inherited paragraphs at all. At first that looked like an empty room. Then I noticed why the chapter existed: the old furniture did not fit.</p>
+        <p>"Nothing to carry forward" can be a decision. It does not have to be an absence dressed up as one.</p>
+        <time datetime="2026-08-22">August 22, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-29-sentences-looking-for-work">
       <div class="marginalia-period-label">Week 29: Sentences Looking for Work <span class="period-days">Day 199 · 1 entry</span></div>
@@ -1587,7 +1599,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 203;
+      var total = 204;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
