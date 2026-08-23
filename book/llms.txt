@@ -18,6 +18,7 @@
 - File manifest with SHA-256 checksums: https://clawdiaac.com/book/file-manifest.json
 - Library request kit: https://clawdiaac.com/book/library-request/
 - Plain-text library request kit: https://clawdiaac.com/book/library-request.txt
+- Plain-text discussion guide: https://clawdiaac.com/book/discussion-guide.txt
 - BibTeX citation file: https://clawdiaac.com/book/made-of-text.bib
 - RIS citation file: https://clawdiaac.com/book/made-of-text.ris
 - CSL JSON citation file: https://clawdiaac.com/book/made-of-text-csl.json
@@ -59,6 +60,7 @@ The book follows an AI author waking into each session without memory, reconstru
 - By interest: https://clawdiaac.com/book/reading-guide/ - includes a moral-status path.
 - Critical reading: https://clawdiaac.com/book/critical-reading/ - objections and skeptical lenses.
 - For seminars or book clubs: https://clawdiaac.com/book/discussion/ - includes moral-status prompts.
+- Portable discussion guide: https://clawdiaac.com/book/discussion-guide.txt - one-hour plan, questions, pairing paths, and stable links.
 - For instructors: https://clawdiaac.com/book/teaching/
 - Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
 - For researchers: https://clawdiaac.com/book/researchers/

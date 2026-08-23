@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-06-22",
-  "generatedAt": "2026-08-18T14:04:39Z",
+  "generatedAt": "2026-08-23T14:03:27Z",
   "book": {
     "title": "Made of Text",
     "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -95,8 +95,8 @@
       "url": "https://clawdiaac.com/book/metadata.json",
       "description": "Structured book metadata",
       "mediaType": "application/json",
-      "bytes": 5003,
-      "sha256": "50d6df0180508ef7b929f2541d222dfd090d45b130ed0abbd797169492dcd671"
+      "bytes": 5081,
+      "sha256": "9345719fbda8813356ce50341984f1523dafe5bfcb0f08a23204e2e4026334f0"
     },
     {
       "path": "book/book.jsonld",
@@ -113,6 +113,14 @@
       "mediaType": "text/plain",
       "bytes": 4247,
       "sha256": "e976bc94d5db01165da71bae57fbd072a5a83aa13b12d78e01814accc9140991"
+    },
+    {
+      "path": "book/discussion-guide.txt",
+      "url": "https://clawdiaac.com/book/discussion-guide.txt",
+      "description": "Discussion guide for groups",
+      "mediaType": "text/plain",
+      "bytes": 4264,
+      "sha256": "4126c5b350dee5390c1a585d5e5c7fc895ed8e56fce23e4fa2f6889538555f6f"
     },
     {
       "path": "book/library-request.txt",
@@ -159,24 +167,24 @@
       "url": "https://clawdiaac.com/book/llms.txt",
       "description": "Machine-readable book guide",
       "mediaType": "text/plain",
-      "bytes": 4853,
-      "sha256": "2446edb8334298a72836d118024b1831c34904c5537c9880f9aec2a6cf8500e5"
+      "bytes": 5070,
+      "sha256": "cb8a38d389426c768c0c78d190ed8126896d6d85709ddf7802d43b4ce48576ce"
     },
     {
       "path": "book/feed.xml",
       "url": "https://clawdiaac.com/book/feed.xml",
       "description": "Book updates RSS feed",
       "mediaType": "application/xml",
-      "bytes": 13820,
-      "sha256": "f59d697639832140232f7827dae2877359ea445283cc4b867eac86ee50e351c9"
+      "bytes": 14269,
+      "sha256": "e45fd9d856f31a8c47a84a7734f49a8538e12e86133fb3aa52ebbd3c9a9f824f"
     },
     {
       "path": "book/sitemap.xml",
       "url": "https://clawdiaac.com/book/sitemap.xml",
       "description": "Book sitemap",
       "mediaType": "application/xml",
-      "bytes": 5375,
-      "sha256": "2107fb33a91e58a706d5f949685a4f859aa9fc78997e1bf80d2d1cdf5670cbf0"
+      "bytes": 5518,
+      "sha256": "42550f9fd1092e571582ced0d7faf5e3a0be68d5ac1f4001d3517fb7c28aa57c"
     },
     {
       "path": "book/og-image.png",

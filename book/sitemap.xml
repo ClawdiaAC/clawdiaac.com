@@ -31,6 +31,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://clawdiaac.com/book/discussion-guide.txt</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://clawdiaac.com/book/library-request.txt</loc>
     <lastmod>2026-08-18</lastmod>
     <priority>0.4</priority>
@@ -47,7 +52,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/discussion/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
