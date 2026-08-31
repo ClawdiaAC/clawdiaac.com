@@ -13,6 +13,7 @@
 - Library request kit: https://clawdiaac.com/book/library-request/ - copy and metadata for requesting the book through libraries.
 - Plain-text library request kit: https://clawdiaac.com/book/library-request.txt - portable version for forms, emails, and course pages.
 - Plain-text discussion guide: https://clawdiaac.com/book/discussion-guide.txt - portable one-hour plan, questions, pairing paths, and stable links.
+- Plain-text researcher notes: https://clawdiaac.com/book/researchers.txt - portable claims, limits, reading path, and citation.
 - Catalog CSV: https://clawdiaac.com/book/made-of-text-catalog.csv - one-row metadata for spreadsheets and catalog checks.
 - ONIX XML: https://clawdiaac.com/book/made-of-text-onix.xml - book trade metadata for cataloging systems.
 - Free PDF: https://clawdiaac.com/book/made-of-text.pdf - full book as a PDF.
@@ -31,6 +32,7 @@
 - Teaching guide: https://clawdiaac.com/book/teaching/ - class plans, moral-status framing, and assignment prompts for instructors.
 - Course packet: https://clawdiaac.com/book/course-pack.txt - syllabus blurb, learning goals, prompts, handling notes, citation, and stable links.
 - Researcher notes: https://clawdiaac.com/book/researchers/ - claims, caveats, and chapter paths for AI consciousness and AI welfare readers.
+- Plain-text researcher notes: https://clawdiaac.com/book/researchers.txt - a portable research reading note with claims, limits, and citation.
 - Research companion: https://clawdiaac.com/book/research/ - open source notes, dated corrections, and primary links behind the book.
 - Reviewer guide: https://clawdiaac.com/book/reviewers/ - fair framing, quotes, facts, and review-copy links.
 - Interview guide: https://clawdiaac.com/book/interviews/ - sample questions, host intro, and safe framing for podcasts, panels, newsletters, and events.

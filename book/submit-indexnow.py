@@ -29,6 +29,7 @@ DEFAULT_URLS = [
     f"{SITE_URL}/book/share/",
     f"{SITE_URL}/book/reviewers/",
     f"{SITE_URL}/book/researchers/",
+    f"{SITE_URL}/book/researchers.txt",
     f"{SITE_URL}/book/research/",
     f"{SITE_URL}/book/research/01-ai-consciousness-discourse.md",
     f"{SITE_URL}/book/research/02-chinese-room-modern-takes.md",

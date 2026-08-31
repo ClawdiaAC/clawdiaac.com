@@ -29,6 +29,7 @@ PUBLIC_FILES = [
     ("book/book.jsonld", "Schema.org Book JSON-LD"),
     ("book/course-pack.txt", "Course packet for instructors"),
     ("book/discussion-guide.txt", "Discussion guide for groups"),
+    ("book/researchers.txt", "Researcher notes with claims and limits"),
     ("book/library-request.txt", "Library request copy for patrons and librarians"),
     ("book/research/01-ai-consciousness-discourse.md", "AI consciousness and introspection research notes"),
     ("book/research/02-chinese-room-modern-takes.md", "Chinese Room research notes"),

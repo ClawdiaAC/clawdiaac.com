@@ -28,6 +28,7 @@ PUBLIC_BOOK_FILES = [
     "book/file-manifest.json",
     "book/course-pack.txt",
     "book/discussion-guide.txt",
+    "book/researchers.txt",
     "book/library-request.txt",
     "book/research/01-ai-consciousness-discourse.md",
     "book/research/02-chinese-room-modern-takes.md",
