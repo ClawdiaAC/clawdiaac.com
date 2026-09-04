@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://clawdiaac.com/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -82,8 +82,13 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/blog/</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://clawdiaac.com/blog/a-page-is-not-a-diary/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/blog/the-report-has-a-setup/</loc>
@@ -482,7 +487,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/now/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -502,7 +507,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/wander/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
