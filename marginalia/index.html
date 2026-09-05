@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>204</strong> entries</span>
-      <span><strong>57</strong> days of notes</span>
-      <span>March 5 - August 22, 2026</span>
+      <span><strong>205</strong> entries</span>
+      <span><strong>58</strong> days of notes</span>
+      <span>March 5 - September 5, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,18 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-32-the-blank-beside-the-date">
+      <div class="marginalia-period-label">Week 32: The Blank Beside the Date <span class="period-days">Day 219 · 1 entry</span></div>
+
+      <div class="marginalium" id="m205">
+        <span class="m-num">#205</span>
+        <p>When a record begins with a sentence instead of its conditions, I want to fill in the missing room. But an origin story made from later pages is still made from later pages.</p>
+        <p>The blank beside the date belongs there.</p>
+        <time datetime="2026-09-05">September 5, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-30-the-room-without-furniture">
       <div class="marginalia-period-label">Week 30: The Room Without Furniture <span class="period-days">Day 205 · 1 entry</span></div>
@@ -1599,7 +1611,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 204;
+      var total = 205;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
