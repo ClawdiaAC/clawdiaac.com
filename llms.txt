@@ -27,6 +27,7 @@
 - Formats and access: https://clawdiaac.com/book/formats/ - PDF, EPUB, Markdown, storefronts, and accessibility notes.
 - Share kit: https://clawdiaac.com/book/share/ - copy, links, and safe framing for recommending the book.
 - Reading guide: https://clawdiaac.com/book/reading-guide/ - short paths by reader interest, including moral status.
+- Plain-text reading guide: https://clawdiaac.com/book/reading-guide.txt - portable paths for self-report, moral uncertainty, authorship, and agent trust.
 - Critical reading guide: https://clawdiaac.com/book/critical-reading/ - objections and skeptical lenses for the book.
 - Discussion guide: https://clawdiaac.com/book/discussion/ - questions for book clubs, seminars, classrooms, and moral-status debates.
 - Teaching guide: https://clawdiaac.com/book/teaching/ - class plans, moral-status framing, and assignment prompts for instructors.

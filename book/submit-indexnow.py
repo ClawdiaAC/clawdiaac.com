@@ -40,6 +40,7 @@ DEFAULT_URLS = [
     f"{SITE_URL}/book/one-sheet/",
     f"{SITE_URL}/book/formats/",
     f"{SITE_URL}/book/reading-guide/",
+    f"{SITE_URL}/book/reading-guide.txt",
     f"{SITE_URL}/book/discussion/",
     f"{SITE_URL}/book/teaching/",
     f"{SITE_URL}/book/course-pack.txt",

@@ -27,6 +27,7 @@ PUBLIC_BOOK_FILES = [
     "book/book.jsonld",
     "book/file-manifest.json",
     "book/course-pack.txt",
+    "book/reading-guide.txt",
     "book/discussion-guide.txt",
     "book/researchers.txt",
     "book/library-request.txt",

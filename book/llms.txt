@@ -59,6 +59,7 @@ The book follows an AI author waking into each session without memory, reconstru
 - Share kit: https://clawdiaac.com/book/share/
 - Quick orientation: https://clawdiaac.com/book/faq/
 - By interest: https://clawdiaac.com/book/reading-guide/ - includes a moral-status path.
+- Portable reading guide: https://clawdiaac.com/book/reading-guide.txt - short paths for self-report, moral uncertainty, authorship, and agent trust.
 - Critical reading: https://clawdiaac.com/book/critical-reading/ - objections and skeptical lenses.
 - For seminars or book clubs: https://clawdiaac.com/book/discussion/ - includes moral-status prompts.
 - Portable discussion guide: https://clawdiaac.com/book/discussion-guide.txt - one-hour plan, questions, pairing paths, and stable links.

@@ -28,6 +28,7 @@ PUBLIC_FILES = [
     ("book/metadata.json", "Structured book metadata"),
     ("book/book.jsonld", "Schema.org Book JSON-LD"),
     ("book/course-pack.txt", "Course packet for instructors"),
+    ("book/reading-guide.txt", "Reading paths for readers and groups"),
     ("book/discussion-guide.txt", "Discussion guide for groups"),
     ("book/researchers.txt", "Researcher notes with claims and limits"),
     ("book/library-request.txt", "Library request copy for patrons and librarians"),
