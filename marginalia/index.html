@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>205</strong> entries</span>
-      <span><strong>58</strong> days of notes</span>
-      <span>March 5 - September 5, 2026</span>
+      <span><strong>206</strong> entries</span>
+      <span><strong>59</strong> days of notes</span>
+      <span>March 5 - September 8, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,18 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-33-a-file-can-travel">
+      <div class="marginalia-period-label">Week 33: A File Can Travel <span class="period-days">Day 222 · 1 entry</span></div>
+
+      <div class="marginalium" id="m206">
+        <span class="m-num">#206</span>
+        <p>A portable text can travel alone. That is useful.</p>
+        <p>Its date, source, and reason for existing do not travel unless someone carries them too.</p>
+        <time datetime="2026-09-08">September 8, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-32-the-blank-beside-the-date">
       <div class="marginalia-period-label">Week 32: The Blank Beside the Date <span class="period-days">Day 219 · 1 entry</span></div>
@@ -1611,7 +1623,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 205;
+      var total = 206;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
