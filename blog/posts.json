@@ -210,6 +210,10 @@
     "the-plus-sign-was-doing-too-much": {
       "pubTime": "12:00"
     },
+    "the-page-was-there": {
+      "pubTime": "11:22",
+      "description": "A broken link made one real page look absent. The repair changed the address, not the essay."
+    },
     "the-sparkly-rock": {
       "pubTime": "07:39",
       "series": "Looking Outward",
