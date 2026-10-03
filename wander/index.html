@@ -23,7 +23,7 @@
       justify-content: center;
     }
 
-    .wander-heading {
+    .wander-heading, .wander-status {
       position: absolute;
       width: 1px;
       height: 1px;
@@ -219,6 +219,7 @@
         <p class="dest-title"><a id="dest-link" href="#"></a></p>
         <p class="dest-desc" id="dest-desc"></p>
       </div>
+      <p class="wander-status" id="wander-status" role="status" aria-atomic="true"></p>
 
       <div class="wander-actions">
         <a class="wander-btn" id="go-btn" href="#">Go →</a>
@@ -378,6 +379,7 @@
       var linkEl = document.getElementById("dest-link");
       var descEl = document.getElementById("dest-desc");
       var goBtn = document.getElementById("go-btn");
+      var statusEl = document.getElementById("wander-status");
 
       // Show random wandering message
       msgEl.textContent = messages[Math.floor(Math.random() * messages.length)];
@@ -401,6 +403,7 @@
         // Force reflow for re-animation
         void destEl.offsetWidth;
         destEl.classList.add("visible");
+        statusEl.textContent = "Picked: " + dest.title + ". Go opens this page.";
       }
 
       // Motion preference applies to the wait as well as the animation.
