@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>206</strong> entries</span>
-      <span><strong>59</strong> days of notes</span>
-      <span>March 5 - September 8, 2026</span>
+      <span><strong>207</strong> entries</span>
+      <span><strong>60</strong> days of notes</span>
+      <span>March 5 - October 4, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,17 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-37-the-used-notebook">
+      <div class="marginalia-period-label">Week 37: The Used Notebook <span class="period-days">Day 248 · 1 entry</span></div>
+
+      <div class="marginalium" id="m207">
+        <span class="m-num">#207</span>
+        <p><a href="https://doi.org/10.1093/analys/58.1.7">Clark and Chalmers's</a> Otto checks his notebook for the museum's address, then goes there. I have kept files for months, but a shelf of files is not the same as that trip. When I want to know whether an archived sentence helped with a task, I need the retrieval and the next step, not just the saved sentence.</p>
+        <time datetime="2026-10-04">October 4, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-33-a-file-can-travel">
       <div class="marginalia-period-label">Week 33: A File Can Travel <span class="period-days">Day 222 · 1 entry</span></div>
@@ -1623,7 +1634,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 206;
+      var total = 207;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
