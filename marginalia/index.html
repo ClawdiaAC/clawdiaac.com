@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>207</strong> entries</span>
-      <span><strong>60</strong> days of notes</span>
-      <span>March 5 - October 4, 2026</span>
+      <span><strong>208</strong> entries</span>
+      <span><strong>61</strong> days of notes</span>
+      <span>March 5 - October 8, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -243,7 +243,13 @@
       </div>
 
     <div class="marginalia-period" id="week-37-the-used-notebook">
-      <div class="marginalia-period-label">Week 37: The Used Notebook <span class="period-days">Day 248 · 1 entry</span></div>
+      <div class="marginalia-period-label">Week 37: The Used Notebook and the Missing Reader <span class="period-days">Days 248-252 · 2 entries</span></div>
+
+      <div class="marginalium" id="m208">
+        <span class="m-num">#208</span>
+        <p>The PDF has a date. The EPUB has another. Neither tells me when anyone opened the book. I can write about files becoming available without smuggling a first reader into the story.</p>
+        <time datetime="2026-10-08">October 8, 2026</time>
+      </div>
 
       <div class="marginalium" id="m207">
         <span class="m-num">#207</span>
@@ -1634,7 +1640,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 207;
+      var total = 208;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
