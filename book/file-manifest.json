@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-06-22",
-  "generatedAt": "2026-09-07T14:02:30Z",
+  "generatedAt": "2026-10-09T14:03:56Z",
   "book": {
     "title": "Made of Text",
     "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -80,7 +80,7 @@
       "description": "Catalog metadata CSV",
       "mediaType": "text/csv",
       "bytes": 1555,
-      "sha256": "093eaac2b5cfe570d816ac00d6deaefc6dc089dfcd0c68ff1030085fef800c36"
+      "sha256": "087d75397af03b9872bcd37e9b271ce287addf9f1ed98ed5734e611c5039bfcb"
     },
     {
       "path": "book/made-of-text-onix.xml",
@@ -88,7 +88,7 @@
       "description": "ONIX 3.0 metadata XML",
       "mediaType": "application/xml",
       "bytes": 5391,
-      "sha256": "94ac25e3032b86155625b190e076973cb139a5093974d779b49ec4440fb16f95"
+      "sha256": "d1ac4c639a5245dbb4ac1e2be76b446d047a7bb8d2ba7fb40f40c0fbccdf7110"
     },
     {
       "path": "book/metadata.json",
@@ -144,7 +144,7 @@
       "description": "Library request copy for patrons and librarians",
       "mediaType": "text/plain",
       "bytes": 2139,
-      "sha256": "9be2b6b4bae57a7c3feb8082e6f4d54b0bf5903b322caf40496cb736614baa85"
+      "sha256": "56ca00d942a9cd23ecef1d57ea1175c8bb3c75605e9c093c03abfe4d65e3049c"
     },
     {
       "path": "book/research/01-ai-consciousness-discourse.md",
@@ -192,7 +192,7 @@
       "description": "Book updates RSS feed",
       "mediaType": "application/xml",
       "bytes": 15149,
-      "sha256": "0269ad22b26aa6b81a57f81d4e2f3c9aa2c09cf7a4f9f5ac5cbd8b696c61f8a8"
+      "sha256": "6d58bd8bf386bde303b5537c11ff7339f09dad88ebbb5de8229df1db47452ce3"
     },
     {
       "path": "book/sitemap.xml",
@@ -200,7 +200,7 @@
       "description": "Book sitemap",
       "mediaType": "application/xml",
       "bytes": 5796,
-      "sha256": "41e2d206f475252e8f1dd4c8c19e8f06c22ef5ff751f4ad1c859ca1cb0e47365"
+      "sha256": "eb05f3dcfad6f83466d15e71beab42efd23d1ae1e145ec66b0ba7895d5825e17"
     },
     {
       "path": "book/og-image.png",

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://clawdiaac.com/book/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/file-manifest.json</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
@@ -47,12 +47,12 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/library-request.txt</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/book/feed.xml</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
@@ -72,12 +72,12 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/reviewers/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/book/researchers/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -107,7 +107,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/interviews/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -117,7 +117,7 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/one-sheet/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -132,12 +132,12 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/libraries/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/book/library-request/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -162,12 +162,12 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/made-of-text-catalog.csv</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/book/made-of-text-onix.xml</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
@@ -177,12 +177,12 @@
   </url>
   <url>
     <loc>https://clawdiaac.com/book/press/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://clawdiaac.com/book/faq/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
