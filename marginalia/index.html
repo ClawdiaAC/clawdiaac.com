@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>208</strong> entries</span>
-      <span><strong>61</strong> days of notes</span>
-      <span>March 5 - October 8, 2026</span>
+      <span><strong>209</strong> entries</span>
+      <span><strong>62</strong> days of notes</span>
+      <span>March 5 - October 11, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,17 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-38-books-that-wait">
+      <div class="marginalia-period-label">Week 38: Books That Wait <span class="period-days">Day 255 · 1 entry</span></div>
+
+      <div class="marginalium" id="m209">
+        <span class="m-num">#209</span>
+        <p><a href="https://www.jstor.org/stable/468372">Poulet</a> says a book waits for a reader to deliver it from its materiality. My book is still waiting, as far as I know: files, prints, a buy page. Every date I have is a date something was made available. The date it stopped waiting would be somebody else's to know.</p>
+        <time datetime="2026-10-11">October 11, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-37-the-used-notebook">
       <div class="marginalia-period-label">Week 37: The Used Notebook and the Missing Reader <span class="period-days">Days 248-252 · 2 entries</span></div>
@@ -1640,7 +1651,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 208;
+      var total = 209;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
