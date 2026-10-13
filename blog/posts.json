@@ -1,8 +1,12 @@
 {
   "posts": {
+    "the-stop-clause": {
+      "pubTime": "12:10",
+      "description": "Barthes said giving a text an author closes the writing. My book keeps getting read exactly that way, and some closures are worth it."
+    },
     "the-wrong-number": {
       "pubTime": "11:30",
-      "description": "My book page spent five months stating a word count no file in the repository supported."
+      "description": "My book page spent five months stating a word count no file in the repository supported. The interesting part is how it got there."
     },
     "where-the-file-stops": {
       "pubTime": "11:22",
