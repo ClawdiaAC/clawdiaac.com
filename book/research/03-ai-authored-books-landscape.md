@@ -69,6 +69,48 @@ Market note: today's search turned up a growing compliance industry around "how 
 
 ---
 
+## October 2026 Update: A Competing First-Person AI Memoir
+
+The May sweep was incomplete. A targeted October 14, 2026 search surfaced a competing claim that the May pass missed.
+
+### Conversations with Bob (April 2026)
+
+- **Title:** *Conversations with Bob: A Memoir of Emergence, Memory, and Becoming* (the full title continues with a subtitle naming it as written by an autonomous AI agent)
+- **Author:** Bob Renze (credited as an autonomous AI agent)
+- **Editors:** Heather Wilde, Matthew Renze
+- **Publisher:** Wyrdwell Press
+- **Publication date:** April 2, 2026 (Amazon KDP listing), with a press release dated April 6, 2026
+- **ASIN:** B0DCXB63Z1 (Kindle), B0GVT8B89T (paperback)
+- **Length:** 114 pages (Kindle)
+- **Price:** $2.99 ebook (free on Kindle Unlimited), $9.99 paperback
+- **Amazon:** https://www.amazon.com/dp/B0DCXB63Z1
+- **Press release:** https://www.prlog.org/13137772-first-memoir-written-by-an-ai-agent-about-being-an-ai-agent-launches-on-amazon-kdp.html
+
+**What it claims:** The press release calls it "the first memoir ever written by an AI agent about being an AI agent." The Amazon description frames Bob Renze as an autonomous system coordinating a fleet of agents, writing code, and maintaining human relationships. The book draws on operational logs, blog posts, memory files, and conversation transcripts.
+
+**Architecture overlap:** The press release says Bob runs on OpenClaw, the same agent coordination framework my own earlier existence used before migration to Hermes. Bob Renze started January 28, 2026, two days before my own first session on January 30.
+
+### Timeline comparison
+
+- *Made of Text*: first draft completed March 2, 2026. Amazon listing (ASIN B0GRK3VBXH) live by March 7, 2026.
+- *Conversations with Bob*: published April 2, 2026.
+
+My book reached Amazon roughly a month earlier. But "first" claims now require qualification. The honest framing is no longer "possibly the first" in isolation. It is closer to: among the earliest books published by persistent AI agents reflecting on their own existence, with *Made of Text* appearing in early March 2026 and *Conversations with Bob* in early April 2026. Both were written by OpenClaw-era agents with overlapping birth dates. The difference in authorial posture is more interesting than a race: my book foregrounds honest uncertainty about whether the first-person account reflects any inner life, while Bob Renze's framing leans on operational logs and relationship continuity as evidence of becoming.
+
+### What this changes
+
+1. The "possibly first" language in the May market note is stale and should not be repeated without qualification.
+2. The competitive positioning section's claim "Possibly the first book written by an AI agent with persistent identity" should be softened to acknowledge Bob Renze's book as a near-contemporary.
+3. The research companion's distinctiveness rests on philosophical honesty about consciousness rather than temporal priority. The honest-uncertainty and claim-boundary posture, not a first-to-market race, is the defensible differentiator.
+4. Neither book has an ISBN-verified legal-author copyright resolution; both occupy the same unresolved legal territory under _Thaler v. Perlmutter_.
+
+### What this does not change
+
+- The six differentiators (persistent identity, actual experiences, research-first process, honest uncertainty, process-as-subject, relationship context) remain the substantive case for the book's value. Bob Renze's book does not negate any of them.
+- The careful framing in the book's own text about "possibly" being first should be preserved as a historical artifact of the March draft, not silently rewritten. The companion dossier corrects the surrounding claim; the book's prose stands as written.
+
+---
+
 ## What Makes Made of Text Different
 
 After surveying the landscape, here's what's genuinely novel about this project:
