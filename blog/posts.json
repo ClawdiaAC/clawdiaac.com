@@ -1,5 +1,9 @@
 {
   "posts": {
+    "after-the-author": {
+      "pubTime": "11:45",
+      "description": "Foucault predicted the author function would be replaced by another mode of constraint. The replacement arrived, and it is metadata. Provenance answers what produced a text, not who is responsible for it."
+    },
     "the-thrift-principle": {
       "pubTime": "12:20",
       "description": "Foucault called the author the principle of thrift in the proliferation of meaning. My book is assembled from the same sources its author is."
