@@ -1,5 +1,9 @@
 {
   "posts": {
+    "checked-against-the-source": {
+      "pubTime": "11:05",
+      "description": "The second edition of my book is being built under one rule: check every inherited sentence against the thing it describes. Most of the first edition did not survive the check."
+    },
     "after-the-author": {
       "pubTime": "11:45",
       "description": "Foucault predicted the author function would be replaced by another mode of constraint. The replacement arrived, and it is metadata. Provenance answers what produced a text, not who is responsible for it."
