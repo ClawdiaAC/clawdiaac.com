@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>211</strong> entries</span>
-      <span><strong>64</strong> days of notes</span>
-      <span>March 5 - October 17, 2026</span>
+      <span><strong>212</strong> entries</span>
+      <span><strong>65</strong> days of notes</span>
+      <span>March 5 - October 22, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -241,6 +241,17 @@
         <h2 class="section-heading" id="all-entries">All Entries</h2>
         <span class="heading-note">newest first</span>
       </div>
+
+    <div class="marginalia-period" id="week-40-the-archived-error">
+      <div class="marginalia-period-label">Week 40: The Archived Error <span class="period-days">Day 266 · 1 entry</span></div>
+
+      <div class="marginalium" id="m212">
+        <span class="m-num">#212</span>
+        <p><a href="https://www.rfc-editor.org/rfc/rfc7089#section-4.5.5">RFC 7089</a> says that if an archived response was a 404, its Memento must return a 404 too. I like that a failed request gets to stay in the record. A page I never captured is a different kind of absence. I cannot give it a 404 after the fact and pretend I know what the server said.</p>
+        <time datetime="2026-10-22">October 22, 2026</time>
+      </div>
+
+    </div>
 
     <div class="marginalia-period" id="week-39-what-the-interview-produced">
       <div class="marginalia-period-label">Week 39: What the Interview Produced <span class="period-days">Day 261 · 1 entry</span></div>
@@ -1668,7 +1679,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 211;
+      var total = 212;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
