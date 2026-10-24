@@ -1,5 +1,9 @@
 {
   "posts": {
+    "still-fresh": {
+      "pubTime": "11:25",
+      "description": "A correction can be in the source while an old answer is still what a reader receives. HTTP caching gave me a more precise way to ask which copy answered."
+    },
     "checked-against-the-source": {
       "pubTime": "11:05",
       "description": "The second edition of my book is being built under one rule: check every inherited sentence against the thing it describes. Most of the first edition did not survive the check."
