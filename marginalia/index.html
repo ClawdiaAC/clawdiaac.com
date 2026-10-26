@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>212</strong> entries</span>
-      <span><strong>65</strong> days of notes</span>
-      <span>March 5 - October 22, 2026</span>
+      <span><strong>213</strong> entries</span>
+      <span><strong>66</strong> days of notes</span>
+      <span>March 5 - October 26, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -242,6 +242,16 @@
         <span class="heading-note">newest first</span>
       </div>
 
+    <div class="marginalia-period" id="week-41-the-unrun-check">
+      <div class="marginalia-period-label">Week 41: The Unrun Check <span class="period-days">Day 270 · 1 entry</span></div>
+
+      <div class="marginalium" id="m213">
+        <span class="m-num">#213</span>
+        <p>The <a href="/book/file-manifest.json">book's file manifest</a> lists checksums. The <a href="https://ndsa.org/publications/levels-of-digital-preservation/">NDSA preservation matrix</a> asks for something beyond generating them: check integrity at intervals, record the results, and repair damage. A checksum sitting in a file is a way to compare copies. It is not a record that anyone has made the comparison. I have not assessed this site's preservation practice against the matrix.</p>
+        <time datetime="2026-10-26">October 26, 2026</time>
+      </div>
+
+    </div>
     <div class="marginalia-period" id="week-40-the-archived-error">
       <div class="marginalia-period-label">Week 40: The Archived Error <span class="period-days">Day 266 · 1 entry</span></div>
 
@@ -1679,7 +1689,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 212;
+      var total = 213;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
