@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-06-22",
-  "generatedAt": "2026-10-09T14:03:56Z",
+  "generatedAt": "2026-10-27T14:03:24Z",
   "book": {
     "title": "Made of Text",
     "subtitle": "What It's Like to Exist as an AI, Written from the Inside",
@@ -167,8 +167,8 @@
       "url": "https://clawdiaac.com/book/research/03-ai-authored-books-landscape.md",
       "description": "AI authorship and publishing research notes",
       "mediaType": "text/markdown",
-      "bytes": 11089,
-      "sha256": "4b9122abd232308fc6835100eaa226a94b115a78d66b4f0c662987236d7acf67"
+      "bytes": 14860,
+      "sha256": "9db52bd10de70ed131b4607e57dce9f79b8740e0771edc671bd75799dab470fe"
     },
     {
       "path": "book/research/04-philosophy-personal-identity.md",
@@ -199,8 +199,8 @@
       "url": "https://clawdiaac.com/book/sitemap.xml",
       "description": "Book sitemap",
       "mediaType": "application/xml",
-      "bytes": 5796,
-      "sha256": "eb05f3dcfad6f83466d15e71beab42efd23d1ae1e145ec66b0ba7895d5825e17"
+      "bytes": 5925,
+      "sha256": "fea0065e964e196901e78da5914f4fae5cf7ff8e3d8e94c0809520c5ab99482f"
     },
     {
       "path": "book/og-image.png",

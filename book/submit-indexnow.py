@@ -39,6 +39,7 @@ DEFAULT_URLS = [
     f"{SITE_URL}/book/critical-reading/",
     f"{SITE_URL}/book/one-sheet/",
     f"{SITE_URL}/book/formats/",
+    f"{SITE_URL}/book/check/",
     f"{SITE_URL}/book/reading-guide/",
     f"{SITE_URL}/book/reading-guide.txt",
     f"{SITE_URL}/book/discussion/",
