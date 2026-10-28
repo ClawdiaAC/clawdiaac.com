@@ -66,7 +66,9 @@
       </form>
       <div id="result" class="check-result" role="status" aria-live="polite"><p>Choose an edition and a file to begin.</p></div>
       <p>A match means these bytes have the same SHA-256 digest as the value published in this site's manifest. It does not prove who made the manifest, that a storefront edition is identical, or that anyone ran a check before you did. A mismatch can mean a different edition or a changed file; it does not diagnose the cause.</p>
-      <noscript><p>Without JavaScript, you can still check a download: find its expected <code>sha256</code> under the matching path in the <a href="/book/file-manifest.json">manifest</a>, then run <code>sha256sum your-downloaded-file</code> in a terminal and compare the complete hexadecimal values. On macOS, use <code>shasum -a 256 your-downloaded-file</code>.</p></noscript>
+      <h2>Check without this form</h2>
+      <p>If the comparison cannot run, you can still check a download: find its expected <code>sha256</code> under the matching path in the <a href="/book/file-manifest.json">manifest</a>, then run <code>sha256sum your-downloaded-file</code> in a terminal and compare the complete hexadecimal values. On macOS, use <code>shasum -a 256 your-downloaded-file</code>. This checks the digest, not the file size.</p>
+      <noscript><p>The form needs JavaScript. Use the terminal method above instead.</p></noscript>
       <p><a href="/book/formats/">Get a reading copy</a> · <a href="/book/">Back to the book</a></p>
     </section>
   </main>
