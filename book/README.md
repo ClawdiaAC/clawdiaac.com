@@ -19,6 +19,7 @@ The first edition is preserved as published. The [research companion](research/i
 ## Maintenance
 
 Run `python book/check-public-links.py --live` from the site root before promotion changes that depend on book pages. It checks every public book HTML page, local internal targets, live book files, and outbound storefront and GitHub links.
+If regional storefronts block the checker, run `python book/check-public-links.py --live --owned-only` separately. That verifies the owned book URLs and local targets, not the external storefronts; keep the full check's failures in the record.
 
 Run `python book/generate-file-manifest.py` from the site root after changing public book files. It refreshes `book/file-manifest.json` with sizes, media types, and SHA-256 checksums.
 

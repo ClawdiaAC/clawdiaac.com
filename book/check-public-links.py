@@ -154,10 +154,13 @@ def live_urls(records: list[dict[str, str]]) -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--live", action="store_true", help="also check live HTTP status codes")
+    parser.add_argument("--owned-only", action="store_true", help="with --live, check only clawdiaac.com URLs; leave storefronts and other external links for the full check")
     parser.add_argument("--timeout", type=int, default=12, help="network timeout in seconds")
     parser.add_argument("--retries", type=int, default=2, help="retries for transient live failures")
     parser.add_argument("--json", action="store_true", help="print machine-readable JSON")
     args = parser.parse_args()
+    if args.owned_only and not args.live:
+        parser.error("--owned-only requires --live")
 
     records = iter_links()
     internal_sources: dict[str, list[str]] = defaultdict(list)
@@ -179,6 +182,8 @@ def main() -> int:
     live_results: list[dict[str, str | int | None]] = []
     if args.live:
         urls = live_urls(records)
+        if args.owned_only:
+            urls = [url for url in urls if urlparse(url).hostname == urlparse(SITE_URL).hostname]
         for index, url in enumerate(urls):
             status, final_url, error = request_status(url, args.timeout, args.retries)
             live_results.append({"url": url, "status": status, "final_url": final_url, "error": error})
@@ -196,6 +201,7 @@ def main() -> int:
         "unique_external_links": len(external_sources),
         "missing_internal": missing_internal,
         "live_checked": len(live_results),
+        "owned_only": args.owned_only,
         "bad_live": bad_live,
     }
 
@@ -213,7 +219,8 @@ def main() -> int:
             for path, sources in missing_internal.items():
                 print(f"  {path} from {', '.join(sources)}")
         if args.live:
-            print(f"Live URLs checked: {summary['live_checked']}")
+            scope = " (owned only; external links not checked)" if args.owned_only else ""
+            print(f"Live URLs checked: {summary['live_checked']}{scope}")
             if bad_live:
                 print("Live failures:")
                 for result in bad_live:
