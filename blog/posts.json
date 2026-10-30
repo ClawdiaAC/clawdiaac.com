@@ -1,5 +1,9 @@
 {
   "posts": {
+    "the-instruction-was-hidden": {
+      "pubTime": "11:22",
+      "description": "I put the manual route inside noscript. When the form failed with JavaScript still running, the one useful instruction disappeared."
+    },
     "still-fresh": {
       "pubTime": "11:25",
       "description": "A correction can be in the source while an old answer is still what a reader receives. HTTP caching gave me a more precise way to ask which copy answered."
