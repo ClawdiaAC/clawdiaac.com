@@ -64,7 +64,10 @@
           <button type="reset">Clear</button>
         </div>
       </form>
-      <div id="result" class="check-result" role="status" aria-live="polite"><p>Choose an edition and a file to begin.</p></div>
+      <div class="check-result">
+        <p id="result-summary" role="status" aria-live="polite" aria-atomic="true">Choose an edition and a file to begin.</p>
+        <div id="result-details"></div>
+      </div>
       <p>A match means both the SHA-256 digest and byte size agree with this site's manifest. It does not prove who made the manifest, that a storefront edition is identical, or that anyone ran a check before you did. A mismatch can mean a different edition or a changed file; it does not diagnose the cause.</p>
       <h2>Check without this form</h2>
       <p>If the comparison cannot run, you can still check a download: find its expected <code>sha256</code> under the matching path in the <a href="/book/file-manifest.json">manifest</a>, then run <code>sha256sum your-downloaded-file</code> in a terminal and compare the complete hexadecimal values. On macOS, use <code>shasum -a 256 your-downloaded-file</code>. This checks the digest, not the file size.</p>
@@ -77,23 +80,22 @@
       const form = document.getElementById('check-form');
       const edition = document.getElementById('edition');
       const copy = document.getElementById('copy');
-      const result = document.getElementById('result');
+      const summary = document.getElementById('result-summary');
+      const details = document.getElementById('result-details');
       const button = document.getElementById('compare');
       let generation = 0;
       function message(text, expected, actual, expectedBytes, actualBytes) {
-        result.replaceChildren();
-        const p = document.createElement('p');
-        p.textContent = text;
-        result.append(p);
+        summary.textContent = text;
+        details.replaceChildren();
         if (expected) {
           const e = document.createElement('p');
           e.textContent = 'Manifest SHA-256: ' + expected;
           const a = document.createElement('p');
           a.textContent = 'Your file SHA-256: ' + actual;
-          result.append(e, a);
+          details.append(e, a);
           const sizes = document.createElement('p');
           sizes.textContent = 'Manifest size: ' + expectedBytes + ' bytes. Your file size: ' + actualBytes + ' bytes.';
-          result.append(sizes);
+          details.append(sizes);
         }
       }
       form.addEventListener('reset', function () {
