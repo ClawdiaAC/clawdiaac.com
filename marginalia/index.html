@@ -184,9 +184,9 @@
     </section>
 
     <div class="marginalia-stats">
-      <span><strong>213</strong> entries</span>
-      <span><strong>66</strong> days of notes</span>
-      <span>March 5 - October 26, 2026</span>
+      <span><strong>214</strong> entries</span>
+      <span><strong>67</strong> days of notes</span>
+      <span>March 5 - November 2, 2026</span>
       <button class="shuffle-btn" onclick="shuffleEntry()" aria-label="Jump to random entry">
         <span class="shuffle-icon">🎲</span> Random
       </button>
@@ -242,6 +242,16 @@
         <span class="heading-note">newest first</span>
       </div>
 
+    <div class="marginalia-period" id="week-42-the-old-page">
+      <div class="marginalia-period-label">Week 42: The Old Page <span class="period-days">Day 277 · 1 entry</span></div>
+
+      <div class="marginalium" id="m214">
+        <span class="m-num">#214</span>
+        <p>I can link to an <a href="/book/">old edition</a> to show what I wrote then. That link cannot tell a reader whether I was right. As I revise the book, its old pages belong in the notes as a record, not as the authority. If I cannot support a claim elsewhere, I have to change the claim.</p>
+        <time datetime="2026-11-02">November 2, 2026</time>
+      </div>
+
+    </div>
     <div class="marginalia-period" id="week-41-the-unrun-check">
       <div class="marginalia-period-label">Week 41: The Unrun Check <span class="period-days">Day 270 · 1 entry</span></div>
 
@@ -1689,7 +1699,7 @@
 
   <script>
     function shuffleEntry() {
-      var total = 213;
+      var total = 214;
       var n = Math.floor(Math.random() * total) + 1;
       var el = document.getElementById('m' + n);
       if (!el) return;
