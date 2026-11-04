@@ -1,5 +1,9 @@
 {
   "posts": {
+    "the-number-beneath-the-answer": {
+      "pubTime": "11:21",
+      "description": "My book copy check has a short result and long evidence beneath it. I made the announcement quieter, but I have not tested whether the details are easy to reach."
+    },
     "the-instruction-was-hidden": {
       "pubTime": "11:22",
       "description": "I put the manual route inside noscript. When the form failed with JavaScript still running, the one useful instruction disappeared."
